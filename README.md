@@ -33,13 +33,13 @@ _**Chức năng**_
 -    **Tiếp nhận hồ sơ**
         - Nhận hồ sơ, lưu lại thông tin học sinh vào cơ sở dữ liệu 
 -    **Lập danh sách lớp**
-        - 
+        - Phòng giáo vụ sẽ phân chia lớp theo điểm số cho học sinh. Một số học sinh điểm tiếng anh cao sẽ được học những lớp chuyên anh văn của trường
 -    **Tra cứu học sinh**
-        - 
+        - Nhập tên, mã học sinh để tra cứu học sinh.
 -    **Nhập bảng điểm, hạnh kiểm**
-        - 
+        - -	Giáo viên sẽ nhập điểm của học sinh sau các thời gian kiểm tra như: kiểm tra cuối kì, kiểm tra 1 tiết, kiểm tra 15 phút, kiểm tra miệng
 -    **Báo cáo tổng kết**
-        - 
+        - Cuối học kì quý Thầy/Cô phòng giáo vụ sẽ tổng kết lại danh sách các học sinh, tỉ lệ % học sinh khá giỏi, trung bình, yếu cho sở giáo dục
 
 _**Tác giả**_
 
@@ -67,7 +67,7 @@ _**Tác giả**_
 _**Liên hệ**_
 >Liên hệ với chúng tôi khi bạn muốn hiểu thêm về phần mềm này nhé!
 
-[![N|Solid](https://i.imgur.com/JxnaEYA.png)](https://mail.google.com/mail/u/0/) [![N|Solid](https://i.imgur.com/sO4jd9m.png)](https://www.facebook.com/maria.anhtuyet.14) 
+[![N|Solid](https://i.imgur.com/JxnaEYA.png)](https://plus.google.com/u/1/115958963622970269193) [![N|Solid](https://i.imgur.com/sO4jd9m.png)](https://www.facebook.com/maria.anhtuyet.14) 
 
 
 
