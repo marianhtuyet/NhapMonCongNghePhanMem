@@ -1,0 +1,10 @@
+C:\Users\Tung\Desktop\Secret Folder\AI\DFD\DFD\bin\Debug\DFD.exe.config
+C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\DFD\DFD\bin\Debug\DFD.exe.config
+C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\DFD\DFD\bin\Debug\DFD.exe
+C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\DFD\DFD\bin\Debug\DFD.pdb
+C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\DFD\DFD\obj\Debug\DFD.csprojResolveAssemblyReference.cache
+C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\DFD\DFD\obj\Debug\DFD.Properties.Resources.resources
+C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\DFD\DFD\obj\Debug\DFD.csproj.GenerateResource.Cache
+C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\DFD\DFD\obj\Debug\DFD.exe
+C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\DFD\DFD\obj\Debug\DFD.pdb
+C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\DFD\DFD\obj\Debug\DFD.Form2.resources
