@@ -72,7 +72,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(8, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(285, 376);
+            this.panel1.Size = new System.Drawing.Size(314, 376);
             this.panel1.TabIndex = 1;
             // 
             // comboBox3
@@ -160,9 +160,9 @@
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(430, 12);
+            this.panel2.Location = new System.Drawing.Point(495, 12);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(308, 380);
+            this.panel2.Size = new System.Drawing.Size(373, 380);
             this.panel2.TabIndex = 2;
             // 
             // comboBox6
@@ -246,7 +246,7 @@
             this.button1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Location = new System.Drawing.Point(324, 177);
+            this.button1.Location = new System.Drawing.Point(375, 173);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(55, 44);
             this.button1.TabIndex = 1;
@@ -256,7 +256,7 @@
             // 
             this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Location = new System.Drawing.Point(324, 246);
+            this.button2.Location = new System.Drawing.Point(375, 235);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(55, 44);
             this.button2.TabIndex = 3;
@@ -266,7 +266,7 @@
             // 
             this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.Location = new System.Drawing.Point(324, 305);
+            this.button3.Location = new System.Drawing.Point(375, 302);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(55, 51);
             this.button3.TabIndex = 4;
