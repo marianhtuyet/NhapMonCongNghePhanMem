@@ -11,8 +11,8 @@ _**Giới thiệu**_
 >Quản lý học sinh là một phần mềm chuyên dùng trong các trường học. Nhằm giúp giáo viên giảm bớt khó khăn trong công việc tính toán quản lý điểm và quản lí hồ sơ học sinh. Thay thế cho các công việc quản lí điểm bằng thủ công, người sử dụng có thể sử dụng phần mềm để tiện đường tra cứu, chỉnh sửa hồ sơ học sinh hay chỉnh sửa bảng điểm một cách dễ dàng và nhanh chóng.
 _**Chức năng**_
 
-- Start day: 10/3/2018
-- Intend ending day: 2/6/2018
+- Ngày bắt đầu: 10/3/2018
+- Ngày kết thúc: 2/6/2018
 
   Tên nghiệp vụ |  Người thực hiện chính 
   ---|---
@@ -65,7 +65,7 @@ _**Tác giả**_
 
 
 _**Liên hệ**_
->Liên hệ với chúng tôi khi bạn muốn hiểu thêm về phần mềm này nhé!
+>Liên hệ với chúng tôi khi bạn muốn hiểu thêm về phần mềm này!
 
 [![N|Solid](https://i.imgur.com/JxnaEYA.png)](https://plus.google.com/u/1/115958963622970269193) [![N|Solid](https://i.imgur.com/sO4jd9m.png)](https://www.facebook.com/maria.anhtuyet.14) 
 
