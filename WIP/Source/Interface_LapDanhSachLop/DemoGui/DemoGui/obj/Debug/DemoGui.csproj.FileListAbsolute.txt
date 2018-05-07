@@ -10,3 +10,9 @@ D:\AnhTuyet\BaiHoc\Github\demoCSharp\DemoGui\DemoGui\obj\Debug\DemoGui.pdb
 D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\DemoGui\bin\Debug\DemoGui.exe.config
 D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\DemoGui\obj\Debug\DemoGui.exe
 D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\DemoGui\obj\Debug\DemoGui.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\DemoGui\bin\Debug\DemoGui.exe
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\DemoGui\bin\Debug\DemoGui.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\DemoGui\obj\Debug\DemoGui.csprojResolveAssemblyReference.cache
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\DemoGui\obj\Debug\DemoGui.Form1.resources
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\DemoGui\obj\Debug\DemoGui.Properties.Resources.resources
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\DemoGui\obj\Debug\DemoGui.csproj.GenerateResource.Cache
