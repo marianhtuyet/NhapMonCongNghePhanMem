@@ -35,5 +35,10 @@ namespace NhapDiemVaHanhKiem
             f2.MdiParent = this;
             f2.Show();
         }
+
+        private void frmNhapDiemVaHanhKiem_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

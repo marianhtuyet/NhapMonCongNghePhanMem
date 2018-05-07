@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoGui", "DemoGui\DemoGui.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaoDSLop", "TaoDSLop\TaoDSLop.csproj", "{0315FC78-7406-4F57-9C27-F08B1DAFB584}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraCuuHS", "TraCuuHS\TraCuuHS.csproj", "{869465C7-544E-43F5-8515-851958C6342B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThayDoiQuyDinh", "ThayDoiQuyDinh\ThayDoiQuyDinh.csproj", "{47C13A50-C9B0-4AE4-B9BD-B9F330B9DB2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{0315FC78-7406-4F57-9C27-F08B1DAFB584}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0315FC78-7406-4F57-9C27-F08B1DAFB584}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0315FC78-7406-4F57-9C27-F08B1DAFB584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{869465C7-544E-43F5-8515-851958C6342B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{869465C7-544E-43F5-8515-851958C6342B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{869465C7-544E-43F5-8515-851958C6342B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{869465C7-544E-43F5-8515-851958C6342B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47C13A50-C9B0-4AE4-B9BD-B9F330B9DB2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47C13A50-C9B0-4AE4-B9BD-B9F330B9DB2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47C13A50-C9B0-4AE4-B9BD-B9F330B9DB2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47C13A50-C9B0-4AE4-B9BD-B9F330B9DB2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

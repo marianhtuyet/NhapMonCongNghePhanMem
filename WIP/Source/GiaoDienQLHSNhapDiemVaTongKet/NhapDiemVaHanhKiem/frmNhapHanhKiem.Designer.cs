@@ -39,13 +39,6 @@
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -58,9 +51,10 @@
             "2016 - 2017",
             "2017 - 2018",
             "2018 - 2019"});
-            this.comboBox4.Location = new System.Drawing.Point(154, 22);
+            this.comboBox4.Location = new System.Drawing.Point(103, 15);
+            this.comboBox4.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(121, 28);
+            this.comboBox4.Size = new System.Drawing.Size(82, 22);
             this.comboBox4.TabIndex = 30;
             // 
             // comboBox3
@@ -76,9 +70,10 @@
             "12A1",
             "12A2",
             "12A3"});
-            this.comboBox3.Location = new System.Drawing.Point(154, 129);
+            this.comboBox3.Location = new System.Drawing.Point(103, 90);
+            this.comboBox3.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 28);
+            this.comboBox3.Size = new System.Drawing.Size(82, 22);
             this.comboBox3.TabIndex = 29;
             // 
             // comboBox1
@@ -87,35 +82,45 @@
             this.comboBox1.Items.AddRange(new object[] {
             "I",
             "II"});
-            this.comboBox1.Location = new System.Drawing.Point(154, 71);
+            this.comboBox1.Location = new System.Drawing.Point(103, 50);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 28);
+            this.comboBox1.Size = new System.Drawing.Size(82, 22);
             this.comboBox1.TabIndex = 27;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(31, 82);
+            this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
+            this.label3.ForeColor = System.Drawing.Color.Blue;
+            this.label3.Location = new System.Drawing.Point(21, 57);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(59, 20);
+            this.label3.Size = new System.Drawing.Size(65, 19);
             this.label3.TabIndex = 25;
             this.label3.Text = "Học Kỳ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(31, 137);
+            this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.Blue;
+            this.label2.Location = new System.Drawing.Point(21, 96);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(36, 20);
+            this.label2.Size = new System.Drawing.Size(40, 19);
             this.label2.TabIndex = 24;
             this.label2.Text = "Lớp";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(31, 30);
+            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.Blue;
+            this.label1.Location = new System.Drawing.Point(21, 21);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 20);
+            this.label1.Size = new System.Drawing.Size(79, 19);
             this.label1.TabIndex = 23;
             this.label1.Text = "Năm Học";
             // 
@@ -125,17 +130,15 @@
             this.columnHeader1,
             this.columnHeader2,
             this.columnHeader3,
-            this.columnHeader4,
-            this.columnHeader5,
-            this.columnHeader6,
-            this.columnHeader7,
-            this.columnHeader8,
-            this.columnHeader9,
-            this.columnHeader10,
-            this.columnHeader11});
-            this.listView1.Location = new System.Drawing.Point(55, 237);
+            this.columnHeader4});
+            this.listView1.FullRowSelect = true;
+            this.listView1.GridLines = true;
+            this.listView1.HideSelection = false;
+            this.listView1.HoverSelection = true;
+            this.listView1.Location = new System.Drawing.Point(37, 166);
+            this.listView1.Margin = new System.Windows.Forms.Padding(2);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(872, 295);
+            this.listView1.Size = new System.Drawing.Size(583, 208);
             this.listView1.TabIndex = 32;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -157,56 +160,26 @@
             // 
             // columnHeader4
             // 
-            this.columnHeader4.Text = "Điểm Miệng";
-            this.columnHeader4.Width = 92;
-            // 
-            // columnHeader5
-            // 
-            this.columnHeader5.Text = "Điểm 15\' L1";
-            // 
-            // columnHeader6
-            // 
-            this.columnHeader6.Text = "Điểm 15\' L2";
-            // 
-            // columnHeader7
-            // 
-            this.columnHeader7.Text = "Điểm 15\' L3";
-            this.columnHeader7.Width = 96;
-            // 
-            // columnHeader8
-            // 
-            this.columnHeader8.Text = "Điểm 1 Tiết L1";
-            this.columnHeader8.Width = 115;
-            // 
-            // columnHeader9
-            // 
-            this.columnHeader9.Text = "Điểm 1 Tiết L2";
-            this.columnHeader9.Width = 116;
-            // 
-            // columnHeader10
-            // 
-            this.columnHeader10.Text = "Điểm 1 Tiết L3";
-            this.columnHeader10.Width = 116;
-            // 
-            // columnHeader11
-            // 
-            this.columnHeader11.Text = "Điểm Học Kỳ";
-            this.columnHeader11.Width = 106;
+            this.columnHeader4.Text = "Hạnh kiểm";
+            this.columnHeader4.Width = 400;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(387, 193);
+            this.label5.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Bold);
+            this.label5.ForeColor = System.Drawing.Color.Blue;
+            this.label5.Location = new System.Drawing.Point(258, 135);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(148, 20);
+            this.label5.Size = new System.Drawing.Size(154, 19);
             this.label5.TabIndex = 31;
-            this.label5.Text = "BẢNG HẠNH KIỂM";
+            this.label5.Text = "BẢNG HẠNH KIỂM";
             // 
             // frmNhapHanhKiem
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(984, 544);
+            this.ClientSize = new System.Drawing.Size(656, 381);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.comboBox4);
@@ -215,6 +188,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmNhapHanhKiem";
             this.Text = "Nhập Hạnh Kiểm";
             this.ResumeLayout(false);
@@ -235,13 +209,6 @@
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;
-        private System.Windows.Forms.ColumnHeader columnHeader5;
-        private System.Windows.Forms.ColumnHeader columnHeader6;
-        private System.Windows.Forms.ColumnHeader columnHeader7;
-        private System.Windows.Forms.ColumnHeader columnHeader8;
-        private System.Windows.Forms.ColumnHeader columnHeader9;
-        private System.Windows.Forms.ColumnHeader columnHeader10;
-        private System.Windows.Forms.ColumnHeader columnHeader11;
         private System.Windows.Forms.Label label5;
     }
 }
