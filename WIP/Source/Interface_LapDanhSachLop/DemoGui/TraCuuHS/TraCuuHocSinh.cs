@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TraCuuHS
 {
-    public partial class Form1 : Form
+    public partial class TraCuuHocSinh : Form
     {
-        public Form1()
+        public TraCuuHocSinh()
         {
             InitializeComponent();
         }

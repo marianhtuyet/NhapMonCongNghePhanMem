@@ -1,6 +1,6 @@
 ﻿namespace TraCuuHS
 {
-    partial class Form1
+    partial class TraCuuHocSinh
     {
         /// <summary>
         /// Required designer variable.
