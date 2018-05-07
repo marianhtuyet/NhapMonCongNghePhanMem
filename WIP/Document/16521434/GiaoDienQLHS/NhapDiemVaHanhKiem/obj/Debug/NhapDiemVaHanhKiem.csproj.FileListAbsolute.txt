@@ -1,0 +1,12 @@
+C:\Users\ThuViet\Downloads\NM CNPM\QLHS2\NhapDiemVaHanhKiem\bin\Debug\NhapDiemVaHanhKiem.exe.config
+C:\Users\ThuViet\Downloads\NM CNPM\QLHS2\NhapDiemVaHanhKiem\bin\Debug\NhapDiemVaHanhKiem.exe
+C:\Users\ThuViet\Downloads\NM CNPM\QLHS2\NhapDiemVaHanhKiem\bin\Debug\NhapDiemVaHanhKiem.pdb
+C:\Users\ThuViet\Downloads\NM CNPM\QLHS2\NhapDiemVaHanhKiem\obj\Debug\NhapDiemVaHanhKiem.frmNhapDiem.resources
+C:\Users\ThuViet\Downloads\NM CNPM\QLHS2\NhapDiemVaHanhKiem\obj\Debug\NhapDiemVaHanhKiem.frmNhapDiemVaHanhKiem.resources
+C:\Users\ThuViet\Downloads\NM CNPM\QLHS2\NhapDiemVaHanhKiem\obj\Debug\NhapDiemVaHanhKiem.Properties.Resources.resources
+C:\Users\ThuViet\Downloads\NM CNPM\QLHS2\NhapDiemVaHanhKiem\obj\Debug\NhapDiemVaHanhKiem.csproj.GenerateResource.cache
+C:\Users\ThuViet\Downloads\NM CNPM\QLHS2\NhapDiemVaHanhKiem\obj\Debug\NhapDiemVaHanhKiem.csproj.CoreCompileInputs.cache
+C:\Users\ThuViet\Downloads\NM CNPM\QLHS2\NhapDiemVaHanhKiem\obj\Debug\NhapDiemVaHanhKiem.exe
+C:\Users\ThuViet\Downloads\NM CNPM\QLHS2\NhapDiemVaHanhKiem\obj\Debug\NhapDiemVaHanhKiem.pdb
+C:\Users\ThuViet\Downloads\NM CNPM\QLHS2\NhapDiemVaHanhKiem\obj\Debug\NhapDiemVaHanhKiem.csprojResolveAssemblyReference.cache
+C:\Users\ThuViet\Downloads\NM CNPM\QLHS2\NhapDiemVaHanhKiem\obj\Debug\NhapDiemVaHanhKiem.frmNhapHanhKiem.resources
