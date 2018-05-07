@@ -1,0 +1,6 @@
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Tiếp Nhận Hồ Sơ Học Sinh\DFD\bin\Debug\DFD.exe.config
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Tiếp Nhận Hồ Sơ Học Sinh\DFD\obj\Debug\DFD.exe
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Tiếp Nhận Hồ Sơ Học Sinh\DFD\obj\Debug\DFD.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Tiếp Nhận Hồ Sơ Học Sinh\DFD\obj\Debug\DFD.HoSoHocSinh.resources
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Tiếp Nhận Hồ Sơ Học Sinh\DFD\obj\Debug\HoSoHocSinh.csproj.GenerateResource.Cache
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Tiếp Nhận Hồ Sơ Học Sinh\DFD\obj\Debug\HoSoHocSinh.csprojResolveAssemblyReference.cache
