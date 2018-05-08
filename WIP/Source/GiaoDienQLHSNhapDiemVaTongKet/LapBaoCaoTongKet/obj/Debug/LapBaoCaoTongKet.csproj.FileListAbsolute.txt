@@ -1,0 +1,11 @@
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\GiaoDienQLHSNhapDiemVaTongKet\LapBaoCaoTongKet\bin\Debug\QLHS2.exe.config
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\GiaoDienQLHSNhapDiemVaTongKet\LapBaoCaoTongKet\obj\Debug\QLHS2.exe
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\GiaoDienQLHSNhapDiemVaTongKet\LapBaoCaoTongKet\obj\Debug\QLHS2.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\GiaoDienQLHSNhapDiemVaTongKet\LapBaoCaoTongKet\bin\Debug\QLHS2.exe
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\GiaoDienQLHSNhapDiemVaTongKet\LapBaoCaoTongKet\bin\Debug\QLHS2.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\GiaoDienQLHSNhapDiemVaTongKet\LapBaoCaoTongKet\obj\Debug\LapBaoCaoTongKet.csprojResolveAssemblyReference.cache
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\GiaoDienQLHSNhapDiemVaTongKet\LapBaoCaoTongKet\obj\Debug\QLHS2.Form1.resources
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\GiaoDienQLHSNhapDiemVaTongKet\LapBaoCaoTongKet\obj\Debug\QLHS2.frmLapBaoCaoTongKetHocKy.resources
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\GiaoDienQLHSNhapDiemVaTongKet\LapBaoCaoTongKet\obj\Debug\QLHS2.frmLapBaoCaoTongKetMon.resources
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\GiaoDienQLHSNhapDiemVaTongKet\LapBaoCaoTongKet\obj\Debug\QLHS2.Properties.Resources.resources
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\GiaoDienQLHSNhapDiemVaTongKet\LapBaoCaoTongKet\obj\Debug\LapBaoCaoTongKet.csproj.GenerateResource.Cache

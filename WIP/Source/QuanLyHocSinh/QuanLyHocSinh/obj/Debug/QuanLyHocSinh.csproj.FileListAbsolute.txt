@@ -7,3 +7,6 @@ C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\QuanLyHocSinh\QuanLyHocSin
 C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.exe
 C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.pdb
 C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.FrmGiaoDien.resources
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe.config
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.exe
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.pdb

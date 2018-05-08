@@ -3,7 +3,7 @@
 ---
 # Quản lý học sinh
 Thực hiện bởi: [AnhTuyet](https://github.com/marianhtuyet), [DucTung](https://github.com/vinhproct13xx), [PhuongDuyen](https://github.com/tranngocphuongduyen) và [ThuViet](https://github.com/ThuViet)
-Giảng viên hướng dẫn: [Thầy Nguyễn Công Hoan](https://www.facebook.com/hoan.nguyen.khan)
+Giảng viên hướng dẫn: Thầy [Nguyễn Công Hoan](https://www.facebook.com/hoan.nguyen.khan)
 
 
 
@@ -18,8 +18,10 @@ _**Chức năng**_
   ---|---
     Tiếp nhận học sinh  |  Đức Tùng  |
     Phân chia lớp học |  Ánh Tuyết  |
-    Tra cứu học sinh |  Phương Duyên  |
+    Tra cứu học sinh |  Đức Tùng |
     Báo cáo tổng kết |  Thu Việt  |
+    Nhập bảng điểm môn |  Phương Duyên  |
+    Thay đổi quy định |  Ánh Tuyết  |
 
 
 _**Công cụ sử dụng**_
@@ -37,9 +39,11 @@ _**Chức năng**_
 -    **Tra cứu học sinh**
         - Nhập tên, mã học sinh để tra cứu học sinh.
 -    **Nhập bảng điểm, hạnh kiểm**
-        - -	Giáo viên sẽ nhập điểm của học sinh sau các thời gian kiểm tra như: kiểm tra cuối kì, kiểm tra 1 tiết, kiểm tra 15 phút, kiểm tra miệng
+        - Giáo viên sẽ nhập điểm của học sinh sau các thời gian kiểm tra như: kiểm tra cuối kì, kiểm tra 1 tiết, kiểm tra 15 phút, kiểm tra miệng
 -    **Báo cáo tổng kết**
         - Cuối học kì quý Thầy/Cô phòng giáo vụ sẽ tổng kết lại danh sách các học sinh, tỉ lệ % học sinh khá giỏi, trung bình, yếu cho sở giáo dục
+     **Thay đổi quy định**
+-       - Ban giám hiệu được cấp quyền thay đổi các quy định của trường về độ tuổi, sĩ số, số điểm đạt của môn.
 
 _**Tác giả**_
 
