@@ -121,7 +121,7 @@
             // 
             // btnQuayLai
             // 
-            this.btnQuayLai.BackColor = System.Drawing.Color.Red;
+            this.btnQuayLai.BackColor = System.Drawing.Color.Salmon;
             this.btnQuayLai.ForeColor = System.Drawing.Color.White;
             this.btnQuayLai.Location = new System.Drawing.Point(188, 509);
             this.btnQuayLai.Name = "btnQuayLai";
@@ -130,6 +130,7 @@
             this.btnQuayLai.Text = "Quay Lại Trang Trước";
             this.toolTip1.SetToolTip(this.btnQuayLai, "Nhấn vào để quay lại trang trước");
             this.btnQuayLai.UseVisualStyleBackColor = false;
+            this.btnQuayLai.Click += new System.EventHandler(this.btnQuayLai_Click);
             // 
             // btnThemNamHoc
             // 
@@ -158,7 +159,7 @@
             // 
             // btnXoaNamHoc
             // 
-            this.btnXoaNamHoc.BackColor = System.Drawing.Color.Red;
+            this.btnXoaNamHoc.BackColor = System.Drawing.Color.SandyBrown;
             this.btnXoaNamHoc.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnXoaNamHoc.ForeColor = System.Drawing.Color.White;
             this.btnXoaNamHoc.Location = new System.Drawing.Point(189, 383);
@@ -371,7 +372,7 @@
             this.listView1.HoverSelection = true;
             this.listView1.Location = new System.Drawing.Point(0, 0);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(670, 503);
+            this.listView1.Size = new System.Drawing.Size(671, 503);
             this.listView1.TabIndex = 1;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -583,7 +584,7 @@
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.listView1);
-            this.splitContainer2.Size = new System.Drawing.Size(670, 571);
+            this.splitContainer2.Size = new System.Drawing.Size(671, 571);
             this.splitContainer2.SplitterDistance = 45;
             this.splitContainer2.TabIndex = 2;
             // 
@@ -595,7 +596,7 @@
             this.groupBox2.ForeColor = System.Drawing.Color.Blue;
             this.groupBox2.Location = new System.Drawing.Point(0, 0);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(676, 596);
+            this.groupBox2.Size = new System.Drawing.Size(677, 596);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Danh Sách Học Sinh";
@@ -702,7 +703,7 @@
             this.groupBox1.ForeColor = System.Drawing.Color.Blue;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(414, 596);
+            this.groupBox1.Size = new System.Drawing.Size(413, 596);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Nhập Dữ Liệu Học Sinh";
@@ -721,7 +722,7 @@
             // 
             this.splitContainer1.Panel2.Controls.Add(this.groupBox2);
             this.splitContainer1.Size = new System.Drawing.Size(1094, 596);
-            this.splitContainer1.SplitterDistance = 414;
+            this.splitContainer1.SplitterDistance = 413;
             this.splitContainer1.TabIndex = 3;
             // 
             // panel1

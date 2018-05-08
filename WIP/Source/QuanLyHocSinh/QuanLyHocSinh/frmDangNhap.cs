@@ -10,18 +10,26 @@ using System.Windows.Forms;
 
 namespace QuanLyHocSinh
 {
-    public partial class frmThayDoiQuyDinh : Form
+    public partial class frmDangNhap : Form
     {
-        public frmThayDoiQuyDinh()
+        public frmDangNhap()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
             Form f = new Form1();
             f.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+
+        }
+
+      
     }
 }

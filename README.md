@@ -35,13 +35,13 @@ _**Chức năng**_
 -    **Tiếp nhận hồ sơ**
         - Nhận hồ sơ, lưu lại thông tin học sinh vào cơ sở dữ liệu 
 -    **Lập danh sách lớp**
-        - Phòng giáo vụ sẽ phân chia lớp theo điểm số cho học sinh. Một số học sinh điểm tiếng anh cao sẽ được học những lớp chuyên anh văn của trường
+        - Phòng giáo vụ sẽ phân chia lớp cho học sinh. Thêm học sinh vào các lớp 10, chuyển lớp học sinh.
 -    **Tra cứu học sinh**
-        - Nhập tên, mã học sinh để tra cứu học sinh.
+        - Nhập tên, năm học, mã lớp để tra cứu học sinh.
 -    **Nhập bảng điểm, hạnh kiểm**
         - Giáo viên sẽ nhập điểm của học sinh sau các thời gian kiểm tra như: kiểm tra cuối kì, kiểm tra 1 tiết, kiểm tra 15 phút, kiểm tra miệng
 -    **Báo cáo tổng kết**
-        - Cuối học kì quý Thầy/Cô phòng giáo vụ sẽ tổng kết lại danh sách các học sinh, tỉ lệ % học sinh khá giỏi, trung bình, yếu cho sở giáo dục
+        - Cuối học kì quý Thầy/Cô phòng giáo vụ sẽ tổng kết lại danh sách các học sinh, tỉ lệ % học sinh đạt, không đạt của học kỳ và của từng môn học cho sở giáo dục
      **Thay đổi quy định**
 -       - Ban giám hiệu được cấp quyền thay đổi các quy định của trường về độ tuổi, sĩ số, số điểm đạt của môn.
 
