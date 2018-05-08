@@ -1,9 +1,0 @@
-D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\ThayDoiQuyDinh\bin\Debug\ThayDoiQuyDinh.exe.config
-D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\ThayDoiQuyDinh\bin\Debug\ThayDoiQuyDinh.exe
-D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\ThayDoiQuyDinh\bin\Debug\ThayDoiQuyDinh.pdb
-D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\ThayDoiQuyDinh\obj\Debug\ThayDoiQuyDinh.csprojResolveAssemblyReference.cache
-D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\ThayDoiQuyDinh\obj\Debug\ThayDoiQuyDinh.Form1.resources
-D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\ThayDoiQuyDinh\obj\Debug\ThayDoiQuyDinh.Properties.Resources.resources
-D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\ThayDoiQuyDinh\obj\Debug\ThayDoiQuyDinh.csproj.GenerateResource.Cache
-D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\ThayDoiQuyDinh\obj\Debug\ThayDoiQuyDinh.exe
-D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\ThayDoiQuyDinh\obj\Debug\ThayDoiQuyDinh.pdb

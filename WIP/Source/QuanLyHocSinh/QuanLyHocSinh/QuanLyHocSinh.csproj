@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{058798B7-C074-4DE7-A7F5-968FD25E3CBE}</ProjectGuid>
+    <ProjectGuid>{21D47F22-F96A-4201-A5A0-9B14216FFC29}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>QuanLyHocSinh</RootNamespace>
@@ -52,10 +52,79 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmBaoCaoHocKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBaoCaoHocKy.Designer.cs">
+      <DependentUpon>frmBaoCaoHocKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBaoCaoMon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBaoCaoMon.Designer.cs">
+      <DependentUpon>frmBaoCaoMon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChuyenLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChuyenLop.Designer.cs">
+      <DependentUpon>frmChuyenLop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNhapDiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNhapDiem.Designer.cs">
+      <DependentUpon>frmNhapDiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNhapHanhKiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNhapHanhKiem.Designer.cs">
+      <DependentUpon>frmNhapHanhKiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTaoLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTaoLop.Designer.cs">
+      <DependentUpon>frmTaoLop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThayDoiQuyDinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThayDoiQuyDinh.Designer.cs">
+      <DependentUpon>frmThayDoiQuyDinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTiepNhanHocSinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTiepNhanHocSinh.Designer.cs">
+      <DependentUpon>frmTiepNhanHocSinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTraCuuHocSinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTraCuuHocSinh.Designer.cs">
+      <DependentUpon>frmTraCuuHocSinh.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBaoCaoHocKy.resx">
+      <DependentUpon>frmBaoCaoHocKy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChuyenLop.resx">
+      <DependentUpon>frmChuyenLop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNhapDiem.resx">
+      <DependentUpon>frmNhapDiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTiepNhanHocSinh.resx">
+      <DependentUpon>frmTiepNhanHocSinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTraCuuHocSinh.resx">
+      <DependentUpon>frmTraCuuHocSinh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -65,7 +134,6 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -79,9 +147,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\vinalo-1434104297ZfcRBAw2.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,9 +1,0 @@
-D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\TraCuuHS\bin\Debug\TraCuuHS.exe.config
-D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\TraCuuHS\bin\Debug\TraCuuHS.exe
-D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\TraCuuHS\bin\Debug\TraCuuHS.pdb
-D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\TraCuuHS\obj\Debug\TraCuuHS.Form1.resources
-D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\TraCuuHS\obj\Debug\TraCuuHS.Properties.Resources.resources
-D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\TraCuuHS\obj\Debug\TraCuuHS.csproj.GenerateResource.Cache
-D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\TraCuuHS\obj\Debug\TraCuuHS.exe
-D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\TraCuuHS\obj\Debug\TraCuuHS.pdb
-D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Interface_LapDanhSachLop\DemoGui\TraCuuHS\obj\Debug\TraCuuHS.csprojResolveAssemblyReference.cache

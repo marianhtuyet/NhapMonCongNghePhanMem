@@ -10,51 +10,46 @@ using System.Windows.Forms;
 
 namespace QuanLyHocSinh
 {
-    public partial class FrmGiaoDien : Form
+    public partial class Form1 : Form
     {
-        public FrmGiaoDien()
+        public Form1()
         {
             InitializeComponent();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btnTiepNhanHS_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Form f = new frmTiepNhanHocSinh();
+            f.ShowDialog();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnLapDanhSachLop_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Form f2 = new frmChuyenLop();
+            f2.ShowDialog();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void btnTraCuuHocSinh_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button5_Click_1(object sender, EventArgs e)
-        {
-
+            this.Hide();
+            Form f = new frmTraCuuHocSinh();
+            f.ShowDialog();
         }
 
         private void btnNhapDiem_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Form f = new frmNhapDiem();
+            f.ShowDialog();
         }
 
-        private void btnTiepNhanHS_Click(object sender, EventArgs e)
+        private void btnBaoCao_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Form f = new frmBaoCaoHocKy();
+            f.ShowDialog();
         }
     }
 }
