@@ -16,5 +16,13 @@ namespace QuanLyHocSinh
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form f = new Form1();
+            f.ShowDialog();
+
+        }
     }
 }

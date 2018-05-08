@@ -11,3 +11,6 @@ D:\AnhTuyet\BaiHoc\hk2 2017-1018\CNPM\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\Quan
 D:\AnhTuyet\BaiHoc\hk2 2017-1018\CNPM\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmChuyenLop.resources
 D:\AnhTuyet\BaiHoc\hk2 2017-1018\CNPM\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmNhapDiem.resources
 D:\AnhTuyet\BaiHoc\hk2 2017-1018\CNPM\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmTraCuuHocSinh.resources
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe.config
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.exe
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.pdb
