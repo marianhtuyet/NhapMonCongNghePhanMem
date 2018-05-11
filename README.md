@@ -42,8 +42,8 @@ _**Chức năng**_
         - Giáo viên sẽ nhập điểm của học sinh sau các thời gian kiểm tra như: kiểm tra cuối kì, kiểm tra 1 tiết, kiểm tra 15 phút, kiểm tra miệng
 -    **Báo cáo tổng kết**
         - Cuối học kì quý Thầy/Cô phòng giáo vụ sẽ tổng kết lại danh sách các học sinh, tỉ lệ % học sinh đạt, không đạt của học kỳ và của từng môn học cho sở giáo dục
-     **Thay đổi quy định**
--       - Ban giám hiệu được cấp quyền thay đổi các quy định của trường về độ tuổi, sĩ số, số điểm đạt của môn.
+-    **Thay đổi quy định**
+       - Ban giám hiệu được cấp quyền thay đổi các quy định của trường về độ tuổi, sĩ số, số điểm đạt của môn.
 
 _**Tác giả**_
 
