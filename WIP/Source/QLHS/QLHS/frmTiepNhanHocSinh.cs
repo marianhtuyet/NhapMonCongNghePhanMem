@@ -297,5 +297,10 @@ namespace QLHS
                 }
              }
         }
+
+        private void gbxHoSoHocSinh_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1,0 +1,7 @@
+D:\AnhTuyet\BaiHoc\Github\demoCSharp\QLHS\DAL\bin\Debug\DAL.dll
+D:\AnhTuyet\BaiHoc\Github\demoCSharp\QLHS\DAL\bin\Debug\DAL.pdb
+D:\AnhTuyet\BaiHoc\Github\demoCSharp\QLHS\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\AnhTuyet\BaiHoc\Github\demoCSharp\QLHS\DAL\obj\Debug\DAL.dll
+D:\AnhTuyet\BaiHoc\Github\demoCSharp\QLHS\DAL\obj\Debug\DAL.pdb
+D:\AnhTuyet\BaiHoc\Github\demoCSharp\QLHS\DAL\bin\Debug\DTO.dll
+D:\AnhTuyet\BaiHoc\Github\demoCSharp\QLHS\DAL\bin\Debug\DTO.pdb

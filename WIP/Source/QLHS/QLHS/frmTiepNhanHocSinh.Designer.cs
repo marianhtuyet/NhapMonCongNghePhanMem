@@ -113,17 +113,18 @@
             this.gbxHoSoHocSinh.ForeColor = System.Drawing.Color.Blue;
             this.gbxHoSoHocSinh.Location = new System.Drawing.Point(0, 0);
             this.gbxHoSoHocSinh.Name = "gbxHoSoHocSinh";
-            this.gbxHoSoHocSinh.Size = new System.Drawing.Size(784, 257);
+            this.gbxHoSoHocSinh.Size = new System.Drawing.Size(784, 277);
             this.gbxHoSoHocSinh.TabIndex = 1;
             this.gbxHoSoHocSinh.TabStop = false;
             this.gbxHoSoHocSinh.Text = "Nhập Dữ Liệu Học Sinh";
+            this.gbxHoSoHocSinh.Enter += new System.EventHandler(this.gbxHoSoHocSinh_Enter);
             // 
             // lblThongBao
             // 
             this.lblThongBao.AutoSize = true;
             this.lblThongBao.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblThongBao.ForeColor = System.Drawing.Color.Red;
-            this.lblThongBao.Location = new System.Drawing.Point(7, 223);
+            this.lblThongBao.Location = new System.Drawing.Point(7, 240);
             this.lblThongBao.Name = "lblThongBao";
             this.lblThongBao.Size = new System.Drawing.Size(54, 19);
             this.lblThongBao.TabIndex = 32;
@@ -134,9 +135,9 @@
             // 
             this.btnQuayLai.BackColor = System.Drawing.Color.White;
             this.btnQuayLai.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnQuayLai.Location = new System.Drawing.Point(586, 168);
+            this.btnQuayLai.Location = new System.Drawing.Point(586, 181);
             this.btnQuayLai.Name = "btnQuayLai";
-            this.btnQuayLai.Size = new System.Drawing.Size(75, 43);
+            this.btnQuayLai.Size = new System.Drawing.Size(75, 46);
             this.btnQuayLai.TabIndex = 31;
             this.btnQuayLai.Text = "Quay Lại";
             this.btnQuayLai.UseVisualStyleBackColor = false;
@@ -146,9 +147,9 @@
             // 
             this.btnTaySach.BackColor = System.Drawing.Color.White;
             this.btnTaySach.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnTaySach.Location = new System.Drawing.Point(487, 168);
+            this.btnTaySach.Location = new System.Drawing.Point(487, 181);
             this.btnTaySach.Name = "btnTaySach";
-            this.btnTaySach.Size = new System.Drawing.Size(75, 43);
+            this.btnTaySach.Size = new System.Drawing.Size(75, 46);
             this.btnTaySach.TabIndex = 30;
             this.btnTaySach.Text = "Tẩy Sạch";
             this.btnTaySach.UseVisualStyleBackColor = false;
@@ -158,9 +159,9 @@
             // 
             this.btnSua.BackColor = System.Drawing.Color.White;
             this.btnSua.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnSua.Location = new System.Drawing.Point(287, 168);
+            this.btnSua.Location = new System.Drawing.Point(287, 181);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(75, 43);
+            this.btnSua.Size = new System.Drawing.Size(75, 46);
             this.btnSua.TabIndex = 29;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = false;
@@ -170,9 +171,9 @@
             // 
             this.btnXoa.BackColor = System.Drawing.Color.White;
             this.btnXoa.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnXoa.Location = new System.Drawing.Point(388, 168);
+            this.btnXoa.Location = new System.Drawing.Point(388, 181);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(75, 43);
+            this.btnXoa.Size = new System.Drawing.Size(75, 46);
             this.btnXoa.TabIndex = 28;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = false;
@@ -183,9 +184,9 @@
             this.btnThemVaoDanhSach.BackColor = System.Drawing.Color.White;
             this.btnThemVaoDanhSach.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnThemVaoDanhSach.ForeColor = System.Drawing.Color.Blue;
-            this.btnThemVaoDanhSach.Location = new System.Drawing.Point(188, 168);
+            this.btnThemVaoDanhSach.Location = new System.Drawing.Point(188, 181);
             this.btnThemVaoDanhSach.Name = "btnThemVaoDanhSach";
-            this.btnThemVaoDanhSach.Size = new System.Drawing.Size(74, 43);
+            this.btnThemVaoDanhSach.Size = new System.Drawing.Size(74, 46);
             this.btnThemVaoDanhSach.TabIndex = 27;
             this.btnThemVaoDanhSach.Text = "Thêm";
             this.btnThemVaoDanhSach.UseVisualStyleBackColor = false;
@@ -202,7 +203,7 @@
             "2016",
             "2017",
             "2018"});
-            this.cboNamHoc.Location = new System.Drawing.Point(11, 187);
+            this.cboNamHoc.Location = new System.Drawing.Point(11, 201);
             this.cboNamHoc.Name = "cboNamHoc";
             this.cboNamHoc.Size = new System.Drawing.Size(132, 24);
             this.cboNamHoc.TabIndex = 23;
@@ -211,7 +212,7 @@
             // 
             this.txtNgheNghiepMe.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtNgheNghiepMe.ForeColor = System.Drawing.Color.Black;
-            this.txtNgheNghiepMe.Location = new System.Drawing.Point(547, 134);
+            this.txtNgheNghiepMe.Location = new System.Drawing.Point(547, 144);
             this.txtNgheNghiepMe.Name = "txtNgheNghiepMe";
             this.txtNgheNghiepMe.Size = new System.Drawing.Size(135, 22);
             this.txtNgheNghiepMe.TabIndex = 22;
@@ -220,7 +221,7 @@
             // 
             this.txtHoTenMe.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtHoTenMe.ForeColor = System.Drawing.Color.Black;
-            this.txtHoTenMe.Location = new System.Drawing.Point(369, 134);
+            this.txtHoTenMe.Location = new System.Drawing.Point(369, 144);
             this.txtHoTenMe.Name = "txtHoTenMe";
             this.txtHoTenMe.Size = new System.Drawing.Size(133, 22);
             this.txtHoTenMe.TabIndex = 21;
@@ -229,7 +230,7 @@
             // 
             this.txtNgheNghiepCha.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtNgheNghiepCha.ForeColor = System.Drawing.Color.Black;
-            this.txtNgheNghiepCha.Location = new System.Drawing.Point(190, 134);
+            this.txtNgheNghiepCha.Location = new System.Drawing.Point(190, 144);
             this.txtNgheNghiepCha.Name = "txtNgheNghiepCha";
             this.txtNgheNghiepCha.Size = new System.Drawing.Size(134, 22);
             this.txtNgheNghiepCha.TabIndex = 20;
@@ -238,7 +239,7 @@
             // 
             this.txtHoTenCha.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtHoTenCha.ForeColor = System.Drawing.Color.Black;
-            this.txtHoTenCha.Location = new System.Drawing.Point(10, 134);
+            this.txtHoTenCha.Location = new System.Drawing.Point(10, 144);
             this.txtHoTenCha.Name = "txtHoTenCha";
             this.txtHoTenCha.Size = new System.Drawing.Size(135, 22);
             this.txtHoTenCha.TabIndex = 19;
@@ -257,7 +258,7 @@
             "Công Giáo Rôma",
             "Đạo Cao Đài",
             "Không"});
-            this.cboTonGiao.Location = new System.Drawing.Point(188, 88);
+            this.cboTonGiao.Location = new System.Drawing.Point(188, 95);
             this.cboTonGiao.Name = "cboTonGiao";
             this.cboTonGiao.Size = new System.Drawing.Size(135, 24);
             this.cboTonGiao.TabIndex = 18;
@@ -322,7 +323,7 @@
             "Lô Lô",
             "Phù Lá",
             "Si La"});
-            this.cboDanToc.Location = new System.Drawing.Point(367, 88);
+            this.cboDanToc.Location = new System.Drawing.Point(367, 95);
             this.cboDanToc.Name = "cboDanToc";
             this.cboDanToc.Size = new System.Drawing.Size(135, 24);
             this.cboDanToc.TabIndex = 17;
@@ -331,7 +332,7 @@
             // 
             this.txtDiaChi.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtDiaChi.ForeColor = System.Drawing.Color.Black;
-            this.txtDiaChi.Location = new System.Drawing.Point(368, 41);
+            this.txtDiaChi.Location = new System.Drawing.Point(368, 44);
             this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.Size = new System.Drawing.Size(134, 22);
             this.txtDiaChi.TabIndex = 16;
@@ -345,7 +346,7 @@
             "Nam",
             "Nữ",
             "Khác"});
-            this.cboGioiTinh.Location = new System.Drawing.Point(9, 88);
+            this.cboGioiTinh.Location = new System.Drawing.Point(9, 95);
             this.cboGioiTinh.Name = "cboGioiTinh";
             this.cboGioiTinh.Size = new System.Drawing.Size(135, 24);
             this.cboGioiTinh.TabIndex = 15;
@@ -354,7 +355,7 @@
             // 
             this.dtpNgaySinh.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.dtpNgaySinh.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpNgaySinh.Location = new System.Drawing.Point(548, 42);
+            this.dtpNgaySinh.Location = new System.Drawing.Point(548, 45);
             this.dtpNgaySinh.Name = "dtpNgaySinh";
             this.dtpNgaySinh.Size = new System.Drawing.Size(134, 22);
             this.dtpNgaySinh.TabIndex = 14;
@@ -363,7 +364,7 @@
             // 
             this.txtHoTenHocSinh.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtHoTenHocSinh.ForeColor = System.Drawing.Color.Black;
-            this.txtHoTenHocSinh.Location = new System.Drawing.Point(190, 41);
+            this.txtHoTenHocSinh.Location = new System.Drawing.Point(190, 44);
             this.txtHoTenHocSinh.Name = "txtHoTenHocSinh";
             this.txtHoTenHocSinh.Size = new System.Drawing.Size(134, 22);
             this.txtHoTenHocSinh.TabIndex = 13;
@@ -373,9 +374,9 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label13.ForeColor = System.Drawing.Color.Blue;
-            this.label13.Location = new System.Drawing.Point(365, 22);
+            this.label13.Location = new System.Drawing.Point(365, 24);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(51, 16);
+            this.label13.Size = new System.Drawing.Size(52, 16);
             this.label13.TabIndex = 12;
             this.label13.Text = "Địa chỉ";
             // 
@@ -383,7 +384,7 @@
             // 
             this.txtMaHocSinh.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtMaHocSinh.ForeColor = System.Drawing.Color.Black;
-            this.txtMaHocSinh.Location = new System.Drawing.Point(10, 41);
+            this.txtMaHocSinh.Location = new System.Drawing.Point(10, 44);
             this.txtMaHocSinh.Name = "txtMaHocSinh";
             this.txtMaHocSinh.ReadOnly = true;
             this.txtMaHocSinh.Size = new System.Drawing.Size(134, 22);
@@ -394,9 +395,9 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label12.ForeColor = System.Drawing.Color.Blue;
-            this.label12.Location = new System.Drawing.Point(8, 168);
+            this.label12.Location = new System.Drawing.Point(8, 181);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(69, 16);
+            this.label12.Size = new System.Drawing.Size(68, 16);
             this.label12.TabIndex = 10;
             this.label12.Text = "Năm học:";
             // 
@@ -405,9 +406,9 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label11.ForeColor = System.Drawing.Color.Blue;
-            this.label11.Location = new System.Drawing.Point(544, 115);
+            this.label11.Location = new System.Drawing.Point(544, 124);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(119, 16);
+            this.label11.Size = new System.Drawing.Size(117, 16);
             this.label11.TabIndex = 9;
             this.label11.Text = "Nghề Nghiệp Mẹ:";
             // 
@@ -416,7 +417,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label10.ForeColor = System.Drawing.Color.Blue;
-            this.label10.Location = new System.Drawing.Point(366, 115);
+            this.label10.Location = new System.Drawing.Point(366, 124);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(80, 16);
             this.label10.TabIndex = 8;
@@ -427,9 +428,9 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label9.ForeColor = System.Drawing.Color.Blue;
-            this.label9.Location = new System.Drawing.Point(187, 115);
+            this.label9.Location = new System.Drawing.Point(187, 124);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(125, 16);
+            this.label9.Size = new System.Drawing.Size(123, 16);
             this.label9.TabIndex = 7;
             this.label9.Text = "Nghề Nghiệp Cha:";
             // 
@@ -438,7 +439,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label8.ForeColor = System.Drawing.Color.Blue;
-            this.label8.Location = new System.Drawing.Point(8, 115);
+            this.label8.Location = new System.Drawing.Point(8, 124);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(86, 16);
             this.label8.TabIndex = 6;
@@ -449,7 +450,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label7.ForeColor = System.Drawing.Color.Blue;
-            this.label7.Location = new System.Drawing.Point(7, 22);
+            this.label7.Location = new System.Drawing.Point(7, 24);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(92, 16);
             this.label7.TabIndex = 5;
@@ -460,9 +461,9 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label6.ForeColor = System.Drawing.Color.Blue;
-            this.label6.Location = new System.Drawing.Point(187, 69);
+            this.label6.Location = new System.Drawing.Point(187, 74);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(69, 16);
+            this.label6.Size = new System.Drawing.Size(70, 16);
             this.label6.TabIndex = 4;
             this.label6.Text = "Tôn Giáo:";
             // 
@@ -471,7 +472,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label5.ForeColor = System.Drawing.Color.Blue;
-            this.label5.Location = new System.Drawing.Point(366, 66);
+            this.label5.Location = new System.Drawing.Point(366, 71);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(64, 16);
             this.label5.TabIndex = 3;
@@ -482,7 +483,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label4.ForeColor = System.Drawing.Color.Blue;
-            this.label4.Location = new System.Drawing.Point(8, 69);
+            this.label4.Location = new System.Drawing.Point(8, 74);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(71, 16);
             this.label4.TabIndex = 2;
@@ -493,7 +494,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label3.ForeColor = System.Drawing.Color.Blue;
-            this.label3.Location = new System.Drawing.Point(544, 23);
+            this.label3.Location = new System.Drawing.Point(544, 25);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(77, 16);
             this.label3.TabIndex = 1;
@@ -504,7 +505,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label2.ForeColor = System.Drawing.Color.Blue;
-            this.label2.Location = new System.Drawing.Point(187, 22);
+            this.label2.Location = new System.Drawing.Point(187, 24);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(57, 16);
             this.label2.TabIndex = 0;
@@ -529,11 +530,11 @@
             this.NGHENGHIEPME,
             this.MANAMHOC});
             this.dgvHocSinh.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvHocSinh.Location = new System.Drawing.Point(0, 257);
+            this.dgvHocSinh.Location = new System.Drawing.Point(0, 277);
             this.dgvHocSinh.Name = "dgvHocSinh";
             this.dgvHocSinh.ReadOnly = true;
             this.dgvHocSinh.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvHocSinh.Size = new System.Drawing.Size(784, 304);
+            this.dgvHocSinh.Size = new System.Drawing.Size(784, 327);
             this.dgvHocSinh.TabIndex = 1;
             this.dgvHocSinh.Click += new System.EventHandler(this.dgvHocSinh_Click);
             // 
@@ -623,9 +624,9 @@
             // 
             // frmTiepNhanHocSinh
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 561);
+            this.ClientSize = new System.Drawing.Size(784, 604);
             this.Controls.Add(this.dgvHocSinh);
             this.Controls.Add(this.gbxHoSoHocSinh);
             this.Name = "frmTiepNhanHocSinh";
