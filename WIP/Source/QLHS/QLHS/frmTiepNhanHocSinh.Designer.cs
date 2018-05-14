@@ -262,6 +262,7 @@
             this.cboTonGiao.Name = "cboTonGiao";
             this.cboTonGiao.Size = new System.Drawing.Size(135, 24);
             this.cboTonGiao.TabIndex = 18;
+            this.cboTonGiao.SelectedIndexChanged += new System.EventHandler(this.cboTonGiao_SelectedIndexChanged);
             // 
             // cboDanToc
             // 
@@ -350,6 +351,7 @@
             this.cboGioiTinh.Name = "cboGioiTinh";
             this.cboGioiTinh.Size = new System.Drawing.Size(135, 24);
             this.cboGioiTinh.TabIndex = 15;
+            this.cboGioiTinh.SelectedIndexChanged += new System.EventHandler(this.cboGioiTinh_SelectedIndexChanged);
             // 
             // dtpNgaySinh
             // 

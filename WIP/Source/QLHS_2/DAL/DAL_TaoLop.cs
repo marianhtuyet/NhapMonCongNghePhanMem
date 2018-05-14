@@ -21,14 +21,14 @@ namespace DAL
 
         public DataTable getDanhSachLop()
         {
-            SqlDataAdapter da = new SqlDataAdapter("select HOCSINH.mahs, HOCSINH.hoten hs from hocsinh where mahs not in ( select mahs from chitietlop)", _conn);
+            SqlDataAdapter da = new SqlDataAdapter("select HOCSINH.mahs, HOCSINH.hoten  from hocsinh where mahs not in ( select mahs from chitietlop)", _conn);
             DataTable dtDanhSachLop = new DataTable();
             da.Fill(dtDanhSachLop);
             return dtDanhSachLop;
         }
-        public DataTable getDanhSachLopCoSan(string NamHoc, string Lop)
+        public DataTable getDanhSachLopCoSan(int NamHoc, int Lop)
         {
-                SqlDataAdapter da = new SqlDataAdapter("select mahs, hoten from hocsinh where mahs  in  (select mahs from chitietlop)", _conn);
+                SqlDataAdapter da = new SqlDataAdapter("select mahs, hoten from hocsinh where mahs  in  (select mahs from chitietlop where malop = " + Lop + "and manh = " + NamHoc+ ")", _conn);
                 DataTable dtDanhSachLopCoSan = new DataTable();
                 da.Fill(dtDanhSachLopCoSan);
             return dtDanhSachLopCoSan;
@@ -39,8 +39,9 @@ namespace DAL
             DataTable dtLopHoc = new DataTable();
             dr.Fill(dtLopHoc);
             return dtLopHoc;
-            
-
         }
+
+
+
     }
 }

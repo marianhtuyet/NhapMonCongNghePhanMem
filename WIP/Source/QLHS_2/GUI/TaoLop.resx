@@ -299,7 +299,7 @@
         RK5CYII=
 </value>
   </data>
-  <data name="button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnChuyenLop.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAkGBw0NDQ0NDw8QDQ0PDxAPDg0PDxENDQ4QIBIYFxgRFRUY
         HCggGCAlGxUVITEiJSkrLi4uFx8zODMsNygtLiv/2wBDAQoKCg4NDhsQEBorJR4fKystLS0yLy0tLy4t
