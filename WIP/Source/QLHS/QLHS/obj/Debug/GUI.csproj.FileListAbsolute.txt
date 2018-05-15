@@ -16,3 +16,15 @@ C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\QLHS\QLHS\obj\Debug\QLHS.p
 D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS\QLHS\bin\Debug\QLHS.exe.config
 D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS\QLHS\obj\Debug\QLHS.exe
 D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS\QLHS\obj\Debug\QLHS.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS\QLHS\bin\Debug\QLHS.exe
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS\QLHS\bin\Debug\QLHS.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS\QLHS\bin\Debug\BUS.dll
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS\QLHS\bin\Debug\DTO.dll
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS\QLHS\bin\Debug\DAL.dll
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS\QLHS\bin\Debug\BUS.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS\QLHS\bin\Debug\DTO.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS\QLHS\bin\Debug\DAL.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS\QLHS\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS\QLHS\obj\Debug\QLHS.frmTiepNhanHocSinh.resources
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS\QLHS\obj\Debug\QLHS.Properties.Resources.resources
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS\QLHS\obj\Debug\GUI.csproj.GenerateResource.Cache

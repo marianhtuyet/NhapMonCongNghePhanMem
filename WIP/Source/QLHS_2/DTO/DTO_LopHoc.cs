@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -46,15 +47,19 @@ namespace DTO
             set { _MaNH = value; }
         }
 
-        public DTO_LopHoc(int malop, string tenlop,int makhoi, int siso, string tenGVCN, int manh)
+       public DTO_LopHoc (int malop, string tenlop, int siso, string tenGVCN, int manh)
         {
             this._Malop = malop;
             this._TenLop = tenlop;
-            this._MaKhoi = makhoi;
             this._SiSo = siso;
             this._TenGVCN = tenGVCN;
             this._MaNH = manh;
         }
-
+        public DTO_LopHoc(DataRow row)
+        {
+            this._Malop = (int)row["malop"];
+            this._TenLop = row["tenlop"].ToString();
+        }
+        
     }
 }

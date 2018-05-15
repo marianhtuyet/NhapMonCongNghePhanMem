@@ -43,14 +43,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAL_DBConnect.cs" />
+    <Compile Include="DAL_NamHoc.cs" />
     <Compile Include="DAL_TaoLop.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DAL_LopHoc.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DTO\DTO.csproj">
       <Project>{6f904d16-1150-439b-8df1-599fc9bbffec}</Project>
       <Name>DTO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

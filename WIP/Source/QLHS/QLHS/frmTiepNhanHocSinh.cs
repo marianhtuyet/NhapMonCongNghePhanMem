@@ -302,5 +302,15 @@ namespace QLHS
         {
 
         }
+
+        private void cboGioiTinh_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboTonGiao_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

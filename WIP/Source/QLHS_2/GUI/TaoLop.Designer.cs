@@ -31,13 +31,14 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TaoLop));
             this.label3 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnChuyenLop = new System.Windows.Forms.Button();
             this.cboLop = new System.Windows.Forms.ComboBox();
             this.cboNamHoc = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnXemLop = new System.Windows.Forms.Button();
             this.DSLopCoSan = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -74,45 +75,30 @@
             this.button3.TabIndex = 12;
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnChuyenLop
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Location = new System.Drawing.Point(368, 209);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(55, 44);
-            this.button1.TabIndex = 11;
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnChuyenLop.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.btnChuyenLop.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnChuyenLop.BackgroundImage")));
+            this.btnChuyenLop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnChuyenLop.Location = new System.Drawing.Point(368, 209);
+            this.btnChuyenLop.Name = "btnChuyenLop";
+            this.btnChuyenLop.Size = new System.Drawing.Size(55, 44);
+            this.btnChuyenLop.TabIndex = 11;
+            this.btnChuyenLop.UseVisualStyleBackColor = false;
+            this.btnChuyenLop.Click += new System.EventHandler(this.button1_Click);
             // 
             // cboLop
             // 
             this.cboLop.FormattingEnabled = true;
-            this.cboLop.Items.AddRange(new object[] {
-            "10A1",
-            "10A2",
-            "10A3",
-            "10A4",
-            "11A1",
-            "11A2",
-            "11A3",
-            "12A1",
-            "12A2"});
             this.cboLop.Location = new System.Drawing.Point(105, 73);
             this.cboLop.Name = "cboLop";
             this.cboLop.Size = new System.Drawing.Size(121, 22);
             this.cboLop.TabIndex = 18;
+            this.cboLop.SelectedIndexChanged += new System.EventHandler(this.cboLop_SelectedIndexChanged);
             // 
             // cboNamHoc
             // 
             this.cboNamHoc.FormattingEnabled = true;
-            this.cboNamHoc.Items.AddRange(new object[] {
-            "2017-2018",
-            "2018-2019",
-            "2019-2020",
-            "2020-2021",
-            "2021-2022",
-            "2022-2023"});
             this.cboNamHoc.Location = new System.Drawing.Point(105, 24);
             this.cboNamHoc.Name = "cboNamHoc";
             this.cboNamHoc.Size = new System.Drawing.Size(121, 22);
@@ -153,6 +139,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.btnXemLop);
             this.panel2.Controls.Add(this.DSLopCoSan);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.cboLop);
@@ -164,6 +151,18 @@
             this.panel2.Size = new System.Drawing.Size(294, 447);
             this.panel2.TabIndex = 10;
             // 
+            // btnXemLop
+            // 
+            this.btnXemLop.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
+            this.btnXemLop.ForeColor = System.Drawing.Color.Blue;
+            this.btnXemLop.Location = new System.Drawing.Point(105, 105);
+            this.btnXemLop.Name = "btnXemLop";
+            this.btnXemLop.Size = new System.Drawing.Size(75, 23);
+            this.btnXemLop.TabIndex = 24;
+            this.btnXemLop.Text = "Xem";
+            this.btnXemLop.UseVisualStyleBackColor = true;
+            this.btnXemLop.Click += new System.EventHandler(this.button4_Click);
+            // 
             // DSLopCoSan
             // 
             this.DSLopCoSan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -174,7 +173,6 @@
             this.DSLopCoSan.Name = "DSLopCoSan";
             this.DSLopCoSan.Size = new System.Drawing.Size(292, 396);
             this.DSLopCoSan.TabIndex = 23;
-            this.DSLopCoSan.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -254,7 +252,7 @@
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnChuyenLop);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button2);
@@ -276,7 +274,7 @@
 
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnChuyenLop;
         private System.Windows.Forms.ComboBox cboLop;
         private System.Windows.Forms.ComboBox cboNamHoc;
         private System.Windows.Forms.Label label8;
@@ -292,6 +290,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn MAHS;
         private System.Windows.Forms.DataGridViewTextBoxColumn HOTEN;
+        private System.Windows.Forms.Button btnXemLop;
     }
 }
 

@@ -13,11 +13,11 @@ namespace BUS
         DAL_TaoLop dsLop = new DAL_TaoLop();
         DAL_TaoLop dsLopCoSan = new DAL_TaoLop();
 
-        public DataTable getLopHoc()
+        public DataTable getDSLop()
         {
             return dsLop.getDanhSachLop();
         }
-        public DataTable getLopHocCoSan(string NamHoc, string Lop)
+        public DataTable getLopHocCoSan(int NamHoc, int Lop)
         {
             return dsLopCoSan.getDanhSachLopCoSan(NamHoc, Lop);
         }
