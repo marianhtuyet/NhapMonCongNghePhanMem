@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TaoLop));
             this.label3 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
             this.btnChuyenLop = new System.Windows.Forms.Button();
             this.cboLop = new System.Windows.Forms.ComboBox();
             this.cboNamHoc = new System.Windows.Forms.ComboBox();
@@ -42,16 +41,15 @@
             this.DSLopCoSan = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.HSChuaCoLop = new System.Windows.Forms.DataGridView();
             this.MAHS = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.HOTEN = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DSLopCoSan)).BeginInit();
-            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.HSChuaCoLop)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label3
@@ -65,27 +63,17 @@
             this.label3.TabIndex = 14;
             this.label3.Text = "Tạo danh sách lớp mới";
             // 
-            // button3
-            // 
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.Location = new System.Drawing.Point(368, 351);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(55, 51);
-            this.button3.TabIndex = 12;
-            this.button3.UseVisualStyleBackColor = true;
-            // 
             // btnChuyenLop
             // 
             this.btnChuyenLop.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.btnChuyenLop.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnChuyenLop.BackgroundImage")));
             this.btnChuyenLop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnChuyenLop.Location = new System.Drawing.Point(368, 209);
+            this.btnChuyenLop.Location = new System.Drawing.Point(374, 276);
             this.btnChuyenLop.Name = "btnChuyenLop";
             this.btnChuyenLop.Size = new System.Drawing.Size(55, 44);
             this.btnChuyenLop.TabIndex = 11;
             this.btnChuyenLop.UseVisualStyleBackColor = false;
-            this.btnChuyenLop.Click += new System.EventHandler(this.button1_Click);
+            this.btnChuyenLop.Click += new System.EventHandler(this.btnChuyenLop_Click_1);
             // 
             // cboLop
             // 
@@ -161,7 +149,7 @@
             this.btnXemLop.TabIndex = 24;
             this.btnXemLop.Text = "Xem";
             this.btnXemLop.UseVisualStyleBackColor = true;
-            this.btnXemLop.Click += new System.EventHandler(this.button4_Click);
+            this.btnXemLop.Click += new System.EventHandler(this.btnXem);
             // 
             // DSLopCoSan
             // 
@@ -188,6 +176,33 @@
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             this.dataGridViewTextBoxColumn2.Width = 200;
             // 
+            // HSChuaCoLop
+            // 
+            this.HSChuaCoLop.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.HSChuaCoLop.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.MAHS,
+            this.HOTEN});
+            this.HSChuaCoLop.Location = new System.Drawing.Point(0, 51);
+            this.HSChuaCoLop.Name = "HSChuaCoLop";
+            this.HSChuaCoLop.Size = new System.Drawing.Size(295, 396);
+            this.HSChuaCoLop.TabIndex = 22;
+            this.HSChuaCoLop.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.HSChuaCoLop_CellClick);
+            this.HSChuaCoLop.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.HSChuaCoLop_CellContentClick);
+            // 
+            // MAHS
+            // 
+            this.MAHS.DataPropertyName = "MAHS";
+            this.MAHS.HeaderText = "Mã học sinh";
+            this.MAHS.Name = "MAHS";
+            this.MAHS.Width = 90;
+            // 
+            // HOTEN
+            // 
+            this.HOTEN.DataPropertyName = "HOTEN";
+            this.HOTEN.HeaderText = "Tên học sinh";
+            this.HOTEN.Name = "HOTEN";
+            this.HOTEN.Width = 200;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -208,63 +223,24 @@
             this.panel1.Size = new System.Drawing.Size(295, 447);
             this.panel1.TabIndex = 9;
             // 
-            // HSChuaCoLop
-            // 
-            this.HSChuaCoLop.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.HSChuaCoLop.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.MAHS,
-            this.HOTEN});
-            this.HSChuaCoLop.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.HSChuaCoLop.Location = new System.Drawing.Point(0, 51);
-            this.HSChuaCoLop.Name = "HSChuaCoLop";
-            this.HSChuaCoLop.Size = new System.Drawing.Size(295, 396);
-            this.HSChuaCoLop.TabIndex = 22;
-            this.HSChuaCoLop.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // MAHS
-            // 
-            this.MAHS.DataPropertyName = "MAHS";
-            this.MAHS.HeaderText = "Mã học sinh";
-            this.MAHS.Name = "MAHS";
-            this.MAHS.Width = 90;
-            // 
-            // HOTEN
-            // 
-            this.HOTEN.DataPropertyName = "HOTEN";
-            this.HOTEN.HeaderText = "Tên học sinh";
-            this.HOTEN.Name = "HOTEN";
-            this.HOTEN.Width = 200;
-            // 
-            // button2
-            // 
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Location = new System.Drawing.Point(368, 279);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(55, 44);
-            this.button2.TabIndex = 13;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // TaoLop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.btnChuyenLop);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button2);
             this.Name = "TaoLop";
             this.Text = "Tạo danh sách lớp";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DSLopCoSan)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HSChuaCoLop)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.HSChuaCoLop)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -273,7 +249,6 @@
         #endregion
 
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnChuyenLop;
         private System.Windows.Forms.ComboBox cboLop;
         private System.Windows.Forms.ComboBox cboNamHoc;
@@ -281,16 +256,15 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.DataGridView HSChuaCoLop;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DataGridView DSLopCoSan;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn MAHS;
         private System.Windows.Forms.DataGridViewTextBoxColumn HOTEN;
         private System.Windows.Forms.Button btnXemLop;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

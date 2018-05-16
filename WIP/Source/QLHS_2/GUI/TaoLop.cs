@@ -31,16 +31,19 @@ namespace GUI
         /// 
         int MaLop;
         int MaNH;
+        int MaHS;
+        List<int> listmaHS = new List<int>();
         public TaoLop()
         {
             InitializeComponent();
         }
 
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            HienThiLop();
-        }
+    
+        //private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        //{
+        //    int row = HSChuaCoLop.CurrentRow.Index;
+        //    MaHS = int.Parse(HSChuaCoLop[0, row].Value.ToString());
+        //}
         /// <summary>
         /// hiển thị các lớp lên combobox
         /// </summary>
@@ -93,8 +96,12 @@ namespace GUI
         {
 
         }
-
-        private void button4_Click(object sender, EventArgs e)
+        /// <summary>
+        /// xem danh sách lớp
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnXem(object sender, EventArgs e)
         {
             MaNH = Convert.ToInt32(cboNamHoc.SelectedValue);
             MaLop = Convert.ToInt32(cboLop.SelectedValue);
@@ -129,13 +136,32 @@ namespace GUI
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+  
+
+        private void btnChuyenLop_Click_1(object sender, EventArgs e)
         {
-            int currentRowIndex = HSChuaCoLop.CurrentCellAddress.Y;
-            if(-1 < currentRowIndex && currentRowIndex < HSChuaCoLop.RowCount)
+            MaNH = Convert.ToInt32(cboNamHoc.SelectedValue);
+            MaLop = Convert.ToInt32(cboLop.SelectedValue);
+            foreach( int item in listmaHS)
             {
-              
+                busTaoLop.ChuyenLop(item, MaLop, MaNH);
             }
+            DSLopCoSan.DataSource = busLopCoSan.getLopHocCoSan(MaNH, MaLop);
+            HSChuaCoLop.DataSource = busTaoLop.getDSLop();
+        }
+
+       
+        private void HSChuaCoLop_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int row = HSChuaCoLop.CurrentRow.Index;
+
+            MaHS = int.Parse(HSChuaCoLop[0, row].Value.ToString());
+            listmaHS.Add(MaHS);
+        }
+
+        private void HSChuaCoLop_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

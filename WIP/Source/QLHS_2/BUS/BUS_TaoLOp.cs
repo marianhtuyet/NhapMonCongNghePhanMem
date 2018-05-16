@@ -21,6 +21,11 @@ namespace BUS
         {
             return dsLopCoSan.getDanhSachLopCoSan(NamHoc, Lop);
         }
+        public void ChuyenLop(int mahs, int malop, int manh)
+        {
+            dsLop.ChuyenLop(mahs, malop, manh);
+        }
+
 
     }
 }
