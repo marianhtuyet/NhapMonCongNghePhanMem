@@ -1,3 +1,4 @@
+create database QLHS
 USE [QLHS]
 GO
 
@@ -37,8 +38,7 @@ CREATE TABLE [dbo].[BANGDIEM](
 GO
 
 
-USE [QLHS]
-GO
+
 
 /****** Object:  Table [dbo].[BAOCAOHK]    Script Date: 5/11/2018 6:59:24 AM ******/
 SET ANSI_NULLS ON
@@ -63,8 +63,6 @@ CREATE TABLE [dbo].[BAOCAOHK](
 
 GO
 
-USE [QLHS]
-GO
 
 /****** Object:  Table [dbo].[BAOCAOMON]    Script Date: 5/11/2018 6:59:34 AM ******/
 SET ANSI_NULLS ON
@@ -95,8 +93,7 @@ GO
 
 
 
-USE [QLHS]
-GO
+
 
 /****** Object:  Table [dbo].[CHITIETLOP]    Script Date: 5/11/2018 6:59:42 AM ******/
 SET ANSI_NULLS ON
@@ -122,8 +119,7 @@ GO
 
 
 
-USE [QLHS]
-GO
+
 
 /****** Object:  Table [dbo].[HOCKY]    Script Date: 5/11/2018 6:59:53 AM ******/
 SET ANSI_NULLS ON
@@ -158,8 +154,7 @@ GO
 
 
 
-USE [QLHS]
-GO
+
 
 /****** Object:  Table [dbo].[HOCSINH]    Script Date: 5/11/2018 7:00:04 AM ******/
 SET ANSI_NULLS ON
@@ -173,15 +168,17 @@ GO
 
 CREATE TABLE [dbo].[HOCSINH](
 	[MAHS] [int] IDENTITY(1,1) NOT NULL,
-	[HOTEN] [varchar](50) NOT NULL,
-	[GIOITINH] [bit] NOT NULL,
+	[HOTEN] [varchar](40) NOT NULL,
+	[DIACHI] [varchar](40) NOT NULL,
 	[NGAYSINH] [datetime] NOT NULL,
-	[HOTENCHA] [varchar](50) NULL,
-	[NGHENGHIEPCHA] [varchar](30) NULL,
-	[HOTENME] [varchar](50) NULL,
-	[NGHENGHIEPME] [varchar](30) NULL,
-	[TONGIAO] [varchar](20) NOT NULL,
-	[DANTOC] [varchar](20) NOT NULL,
+	[GIOITINH] [varchar](40) NOT NULL,
+	[TONGIAO] [varchar](40) NOT NULL,
+	[DANTOC] [varchar](40) NOT NULL,
+	[HOTENCHA] [varchar](40) NULL,
+	[NGHENGHIEPCHA] [varchar](40) NULL,
+	[HOTENME] [varchar](40) NULL,
+	[NGHENGHIEPME] [varchar](40) NULL,
+	
  CONSTRAINT [PK_HOCSINH] PRIMARY KEY CLUSTERED 
 (
 	[MAHS] ASC
@@ -196,8 +193,7 @@ GO
 
 
 
-USE [QLHS]
-GO
+
 
 /****** Object:  Table [dbo].[KHOILOP]    Script Date: 5/11/2018 7:00:16 AM ******/
 SET ANSI_NULLS ON
@@ -219,8 +215,7 @@ GO
 
 
 
-USE [QLHS]
-GO
+
 
 /****** Object:  Table [dbo].[LOPHOC]    Script Date: 5/11/2018 7:00:26 AM ******/
 SET ANSI_NULLS ON
@@ -255,8 +250,7 @@ GO
 
 
 
-USE [QLHS]
-GO
+
 
 /****** Object:  Table [dbo].[MONHOC]    Script Date: 5/11/2018 7:00:51 AM ******/
 SET ANSI_NULLS ON
@@ -285,8 +279,7 @@ GO
 
 
 
-USE [QLHS]
-GO
+
 
 /****** Object:  Table [dbo].[NAMHOC]    Script Date: 5/11/2018 7:01:00 AM ******/
 SET ANSI_NULLS ON
@@ -309,8 +302,7 @@ GO
 
 
 
-USE [QLHS]
-GO
+
 
 /****** Object:  Table [dbo].[NGUOIDUNG]    Script Date: 5/11/2018 7:01:10 AM ******/
 SET ANSI_NULLS ON
@@ -341,8 +333,7 @@ GO
 
 
 
-USE [QLHS]
-GO
+
 
 /****** Object:  Table [dbo].[QUYDINH]    Script Date: 5/11/2018 7:01:20 AM ******/
 SET ANSI_NULLS ON
@@ -366,8 +357,7 @@ GO
 
 
 
-USE [QLHS]
-GO
+
 
 /****** Object:  Table [dbo].[TONGKETCANAM]    Script Date: 5/11/2018 7:01:27 AM ******/
 SET ANSI_NULLS ON
@@ -395,8 +385,7 @@ GO
 
 
 
-USE [QLHS]
-GO
+
 
 /****** Object:  Table [dbo].[TONGKETHOCKY]    Script Date: 5/11/2018 7:01:45 AM ******/
 SET ANSI_NULLS ON
@@ -426,8 +415,6 @@ GO
 
 
 
-USE [QLHS]
-GO
 
 /****** Object:  Table [dbo].[TONGKETMON]    Script Date: 5/11/2018 7:01:52 AM ******/
 SET ANSI_NULLS ON
