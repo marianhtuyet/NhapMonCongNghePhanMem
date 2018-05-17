@@ -159,7 +159,10 @@ namespace GUI
 
         }
 
-       
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
 //viết tiếp việc chuyển lớp từ bảng này sang bảng kia
