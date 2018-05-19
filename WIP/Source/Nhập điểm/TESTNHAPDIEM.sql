@@ -7,7 +7,7 @@ create table BANGDIEM
 	MALOP nvarchar(10),
 	MAHK int,
 	MAMONHOC nvarchar(10),
-	MANAMHOC year,
+	MANAMHOC int,
 	KTM1 float NULL,
 	KTM2 float NULL,
 	KTM3 float NULL,
@@ -46,6 +46,12 @@ create table HSHS
 	NGHENGHIEPME nvarchar(40),
 	MANAMHOC int,
 	constraint PK_HSHS primary key (MAHS)
+)
+
+create table LOP
+(
+    MALOP nvarchar(10),
+	SISO int,
 )
 
 

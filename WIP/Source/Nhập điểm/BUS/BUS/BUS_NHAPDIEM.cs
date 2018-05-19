@@ -122,6 +122,18 @@ namespace BUS
         {
             return da.getBangDiemHK2();
         }
+        public DataTable getMaLop10()
+        {
+            return da.getMaLop10();
+        }
+        public DataTable getMaLop11()
+        {
+            return da.getMaLop11();
+        }
+        public DataTable getMaLop12()
+        {
+            return da.getMaLop12();
+        }
         public void NhapDiemKTM1(BANGDIEM BD)
         {
             da.NhapDiemKTM1(BD);

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DTO;
 using BUS;
+using System.Data.SqlClient;
 
 namespace GUI
 {
@@ -22,12 +23,56 @@ namespace GUI
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
-        }
+            int i = 0;
+            foreach (DataRow row in bu.getBangDiemHK1().Rows)
+            {
+                lvBangDiem.Items.Add(row["MAHS"].ToString());
+                lvBangDiem.Items[i].SubItems.Add(row["HOTEN"].ToString());
+                lvBangDiem.Items[i].SubItems.Add(row["KTM1"].ToString());
+                lvBangDiem.Items[i].SubItems.Add(row["KTM2"].ToString());
+                lvBangDiem.Items[i].SubItems.Add(row["KTM3"].ToString());
+                lvBangDiem.Items[i].SubItems.Add(row["KTM4"].ToString());
+                lvBangDiem.Items[i].SubItems.Add(row["KTM5"].ToString());
+                lvBangDiem.Items[i].SubItems.Add(row["KT15P1"].ToString());
+                lvBangDiem.Items[i].SubItems.Add(row["KT15P2"].ToString());
+                lvBangDiem.Items[i].SubItems.Add(row["KT15P3"].ToString());
+                lvBangDiem.Items[i].SubItems.Add(row["KT15P4"].ToString());
+                lvBangDiem.Items[i].SubItems.Add(row["KT15P5"].ToString());
+                lvBangDiem.Items[i].SubItems.Add(row["KT15P6"].ToString());
+                lvBangDiem.Items[i].SubItems.Add(row["KT1T1"].ToString());
+                lvBangDiem.Items[i].SubItems.Add(row["KT1T2"].ToString());
+                lvBangDiem.Items[i].SubItems.Add(row["KT1T3"].ToString());
+                lvBangDiem.Items[i].SubItems.Add(row["KT1T4"].ToString());
+                lvBangDiem.Items[i].SubItems.Add(row["KT1T5"].ToString());
+                lvBangDiem.Items[i].SubItems.Add(row["KT1T6"].ToString());
+                lvBangDiem.Items[i].SubItems.Add(row["DIEMTHI"].ToString());
+                lvBangDiem.Items[i].SubItems.Add(row["DIEMTB"].ToString());
+                i++;
+            }
 
-        public void LayBangDiem(ListView lbd, ListViewGroup bd, BANGDIEM BD)
-        {
-            string sql = "select HSHS.MAHS, HOTEN, KTM1, KTM2, KTM3, KTM4, KTM5, KT15P1, KT15P2, KT15P3, KT15P4, KT15P5, KT15P6, KT1T1, KT1T2, KT1T3, KT1T4, KT1T5, KT1T6, DIEMTHI, DIEMTB from HSHS, BANGDIEM where HSHS.MAHS = BANGDIEM.MAHS, MAHK = ",BD.MAHK,", MALOP = ",BD.MALOP,", MAMONHOC = ",BD.MAMONHOC,", MANAMHOC = ",BD.MANAMHOC;
+            foreach (ListViewItem items in lvBangDiem.SelectedItems)
+            {
+                MaHS.Text = items.SubItems[1].Text;
+                HoTen.Text = items.SubItems[2].Text;
+            }
+
+            if (Khoi.Text == "10")
+            {
+                Lop.DataSource = bu.getMaLop10();
+                Lop.DisplayMember = "MALOP";
+            }
+
+            if (Khoi.Text == "11")
+            {
+                Lop.DataSource = bu.getMaLop11();
+                Lop.DisplayMember = "MALOP";
+            }
+
+            if (Khoi.Text == "12")
+            {
+                Lop.DataSource = bu.getMaLop12();
+                Lop.DisplayMember = "MALOP";
+            }
         }
 
         public bool IsNumber(string a)
@@ -134,7 +179,7 @@ namespace GUI
                     lblThongBao.Visible = true;
                 }
             }
-            else
+            
 
 
         }
@@ -146,7 +191,11 @@ namespace GUI
 
         private void Lop_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            if (Khoi.Text == "")
+            {
+                lblThongBao.Text = "Vui lòng chọn khối!";
+                lblThongBao.Visible = true;
+            }
         }
     }
 }

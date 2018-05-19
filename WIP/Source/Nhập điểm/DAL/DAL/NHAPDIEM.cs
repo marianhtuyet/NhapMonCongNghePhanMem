@@ -34,15 +34,34 @@ namespace DAL
             da.Fill(dtBangDiem);
             return dtBangDiem;
         }
-        public DataTable getmalop()
+
+        public DataTable getMaLop10()
         {
             SqlConnection conn = getConnect();
-            SqlDataAdapter da = new SqlDataAdapter("select MALOP from BANGDIEM ", conn);
-            DataTable dtBangDiem = new DataTable();
-            da.Fill(dtBangDiem);
-            return dtBangDiem;
-
+            SqlDataAdapter da = new SqlDataAdapter("select MALOP from LOP where MALOP like '10%' order by MALOP ASC", conn);
+            DataTable dtMaLop = new DataTable();
+            da.Fill(dtMaLop);
+            return dtMaLop;
         }
+
+        public DataTable getMaLop11()
+        {
+            SqlConnection conn = getConnect();
+            SqlDataAdapter da = new SqlDataAdapter("select MALOP from LOP where MALOP like '11%' order by MALOP ASC", conn);
+            DataTable dtMaLop = new DataTable();
+            da.Fill(dtMaLop);
+            return dtMaLop;
+        }
+
+        public DataTable getMaLop12()
+        {
+            SqlConnection conn = getConnect();
+            SqlDataAdapter da = new SqlDataAdapter("select MALOP from LOP where MALOP like '12%' order by MALOP ASC", conn);
+            DataTable dtMaLop = new DataTable();
+            da.Fill(dtMaLop);
+            return dtMaLop;
+        }
+
         public void NhapDiemKTM1(BANGDIEM BD)
         {
             SqlConnection conn = getConnect();

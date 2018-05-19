@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lblThongBao = new System.Windows.Forms.Label();
             this.QuayLai = new System.Windows.Forms.Button();
             this.TiepTheo = new System.Windows.Forms.Button();
             this.Sodiem = new System.Windows.Forms.TextBox();
@@ -49,7 +50,6 @@
             this.Khoi = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.Thoat = new System.Windows.Forms.Button();
-            this.lblThongBao = new System.Windows.Forms.Label();
             this.lvBangDiem = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -108,6 +108,18 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "NHẬP BẢNG ĐIỂM MÔN HỌC";
             // 
+            // lblThongBao
+            // 
+            this.lblThongBao.AutoSize = true;
+            this.lblThongBao.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lblThongBao.ForeColor = System.Drawing.Color.Red;
+            this.lblThongBao.Location = new System.Drawing.Point(26, 162);
+            this.lblThongBao.Name = "lblThongBao";
+            this.lblThongBao.Size = new System.Drawing.Size(54, 19);
+            this.lblThongBao.TabIndex = 33;
+            this.lblThongBao.Text = "label1";
+            this.lblThongBao.Visible = false;
+            // 
             // QuayLai
             // 
             this.QuayLai.BackColor = System.Drawing.Color.White;
@@ -156,6 +168,25 @@
             // LoaiDiem
             // 
             this.LoaiDiem.FormattingEnabled = true;
+            this.LoaiDiem.Items.AddRange(new object[] {
+            "Miệng 1",
+            "Miệng 2",
+            "Miệng 3",
+            "Miệng 4",
+            "Miệng 5",
+            "15 Phút 1",
+            "15 Phút 2",
+            "15 Phút 3",
+            "15 Phút 4",
+            "15 Phút 5",
+            "15 Phút 6",
+            "1 Tiết 1",
+            "1 Tiết 2",
+            "1 Tiết 3",
+            "1 Tiết 4",
+            "1 Tiết 5",
+            "1 Tiết 6",
+            "Thi"});
             this.LoaiDiem.Location = new System.Drawing.Point(446, 111);
             this.LoaiDiem.Name = "LoaiDiem";
             this.LoaiDiem.Size = new System.Drawing.Size(150, 27);
@@ -257,6 +288,20 @@
             // Mon
             // 
             this.Mon.FormattingEnabled = true;
+            this.Mon.Items.AddRange(new object[] {
+            "Toán",
+            "Lý",
+            "Hóa",
+            "Sinh",
+            "Văn",
+            "Sử",
+            "Địa",
+            "Giáo Dục Công Dân",
+            "Công Nghệ",
+            "Tin Học",
+            "Ngoại Ngữ",
+            "Giáo Dục Quốc Phòng",
+            "Thể Dục"});
             this.Mon.Location = new System.Drawing.Point(421, 45);
             this.Mon.Name = "Mon";
             this.Mon.Size = new System.Drawing.Size(175, 27);
@@ -286,6 +331,10 @@
             // Khoi
             // 
             this.Khoi.FormattingEnabled = true;
+            this.Khoi.Items.AddRange(new object[] {
+            "10",
+            "11",
+            "12"});
             this.Khoi.Location = new System.Drawing.Point(30, 45);
             this.Khoi.Name = "Khoi";
             this.Khoi.Size = new System.Drawing.Size(138, 27);
@@ -314,18 +363,6 @@
             this.Thoat.Text = "Thoát";
             this.Thoat.UseVisualStyleBackColor = false;
             this.Thoat.Click += new System.EventHandler(this.Thoat_Click);
-            // 
-            // lblThongBao
-            // 
-            this.lblThongBao.AutoSize = true;
-            this.lblThongBao.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblThongBao.ForeColor = System.Drawing.Color.Red;
-            this.lblThongBao.Location = new System.Drawing.Point(26, 162);
-            this.lblThongBao.Name = "lblThongBao";
-            this.lblThongBao.Size = new System.Drawing.Size(54, 19);
-            this.lblThongBao.TabIndex = 33;
-            this.lblThongBao.Text = "label1";
-            this.lblThongBao.Visible = false;
             // 
             // lvBangDiem
             // 
