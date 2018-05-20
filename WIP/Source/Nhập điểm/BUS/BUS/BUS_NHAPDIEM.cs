@@ -114,115 +114,15 @@ namespace BUS
             }
             BD._DIEMTB = tong / dem;
         }
-        public DataTable getBangDiemHK1()
+        public DataTable getBangDiem(String MaLop, String MaHocKy, String Mon)
         {
-            return da.getBangDiemHK1();
-        }
-        public DataTable getBangDiemHK2()
-        {
-            return da.getBangDiemHK2();
-        }
-        public DataTable getMaLop10()
-        {
-            return da.getMaLop10();
-        }
-        public DataTable getMaLop11()
-        {
-            return da.getMaLop11();
-        }
-        public DataTable getMaLop12()
-        {
-            return da.getMaLop12();
-        }
-        public void NhapDiemKTM1(BANGDIEM BD)
-        {
-            da.NhapDiemKTM1(BD);
+            return da.getBangDiem(MaLop, MaHocKy, Mon);
         }
 
-        public void NhapDiemKTM2(BANGDIEM BD)
+        public DataTable getMaLop(String maKhoi)
         {
-            da.NhapDiemKTM2(BD);
-        }
+            return da.getMaLop(maKhoi);
 
-        public void NhapDiemKTM3(BANGDIEM BD)
-        {
-            da.NhapDiemKTM3(BD);
-        }
-
-        public void NhapDiemKTM4(BANGDIEM BD)
-        {
-            da.NhapDiemKTM4(BD);   
-        }
-
-        public void NhapDiemKTM5(BANGDIEM BD)
-        {
-            da.NhapDiemKTM5(BD);
-        }
-
-        public void NhapDiemKT15P1(BANGDIEM BD)
-        {
-            da.NhapDiemKT15P1(BD);
-        }
-
-        public void NhapDiemKT15P2(BANGDIEM BD)
-        {
-            da.NhapDiemKT15P2(BD);
-        }
-
-        public void NhapDiemKT15P3(BANGDIEM BD)
-        {
-            da.NhapDiemKT15P3(BD);
-        }
-
-        public void NhapDiemKT15P4(BANGDIEM BD)
-        {
-            da.NhapDiemKT15P4(BD);
-        }
-
-        public void NhapDiemKT15P5(BANGDIEM BD)
-        {
-            da.NhapDiemKT15P5(BD);
-        }
-
-        public void NhapDiemKT15P6(BANGDIEM BD)
-        {
-            da.NhapDiemKT15P6(BD);
-        }
-
-        public void NhapDiemKT1T1(BANGDIEM BD)
-        {
-            da.NhapDiemKT1T1(BD);
-        }
-
-        public void NhapDiemKT1T2(BANGDIEM BD)
-        {
-            da.NhapDiemKT1T2(BD);
-        }
-
-        public void NhapDiemKT1T3(BANGDIEM BD)
-        {
-            da.NhapDiemKT1T3(BD);
-        }
-
-        public void NhapDiemKT1T4(BANGDIEM BD)
-        {
-            da.NhapDiemKT1T4(BD);
-        }
-
-        public void NhapDiemKT1T5(BANGDIEM BD)
-        {
-            da.NhapDiemKT1T5(BD);
-        }
-
-        public void NhapDiemKT1T6(BANGDIEM BD)
-        {
-            da.NhapDiemKT1T6(BD);
-        }
-
-
-        public void NhapDiemThi(BANGDIEM BD)
-        {
-            da.NhapDiemThi(BD);
         }
     }
 }

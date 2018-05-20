@@ -29,17 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.lblThongBao = new System.Windows.Forms.Label();
-            this.QuayLai = new System.Windows.Forms.Button();
-            this.TiepTheo = new System.Windows.Forms.Button();
-            this.Sodiem = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.LoaiDiem = new System.Windows.Forms.ComboBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.HoTen = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.MaHS = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.Luu = new System.Windows.Forms.Button();
             this.hocky2 = new System.Windows.Forms.RadioButton();
             this.hocky1 = new System.Windows.Forms.RadioButton();
             this.Lop = new System.Windows.Forms.ComboBox();
@@ -50,46 +40,35 @@
             this.Khoi = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.Thoat = new System.Windows.Forms.Button();
-            this.lvBangDiem = new System.Windows.Forms.ListView();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader13 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader15 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader16 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader17 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader18 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader19 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader20 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader21 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader22 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader23 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.dgvNhapDiem = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvNhapDiem)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.lblThongBao);
-            this.groupBox1.Controls.Add(this.QuayLai);
-            this.groupBox1.Controls.Add(this.TiepTheo);
-            this.groupBox1.Controls.Add(this.Sodiem);
-            this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.LoaiDiem);
-            this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.HoTen);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.MaHS);
-            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.Luu);
             this.groupBox1.Controls.Add(this.hocky2);
             this.groupBox1.Controls.Add(this.hocky1);
             this.groupBox1.Controls.Add(this.Lop);
@@ -103,153 +82,37 @@
             this.groupBox1.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(787, 196);
+            this.groupBox1.Size = new System.Drawing.Size(787, 148);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "NHẬP BẢNG ĐIỂM MÔN HỌC";
             // 
-            // lblThongBao
+            // Luu
             // 
-            this.lblThongBao.AutoSize = true;
-            this.lblThongBao.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblThongBao.ForeColor = System.Drawing.Color.Red;
-            this.lblThongBao.Location = new System.Drawing.Point(26, 162);
-            this.lblThongBao.Name = "lblThongBao";
-            this.lblThongBao.Size = new System.Drawing.Size(54, 19);
-            this.lblThongBao.TabIndex = 33;
-            this.lblThongBao.Text = "label1";
-            this.lblThongBao.Visible = false;
-            // 
-            // QuayLai
-            // 
-            this.QuayLai.BackColor = System.Drawing.Color.White;
-            this.QuayLai.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QuayLai.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.QuayLai.Location = new System.Drawing.Point(552, 155);
-            this.QuayLai.Name = "QuayLai";
-            this.QuayLai.Size = new System.Drawing.Size(87, 35);
-            this.QuayLai.TabIndex = 20;
-            this.QuayLai.Text = "Quay Lại";
-            this.QuayLai.UseVisualStyleBackColor = false;
-            this.QuayLai.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // TiepTheo
-            // 
-            this.TiepTheo.BackColor = System.Drawing.Color.White;
-            this.TiepTheo.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TiepTheo.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.TiepTheo.Location = new System.Drawing.Point(645, 155);
-            this.TiepTheo.Name = "TiepTheo";
-            this.TiepTheo.Size = new System.Drawing.Size(88, 35);
-            this.TiepTheo.TabIndex = 19;
-            this.TiepTheo.Text = "Tiếp Theo";
-            this.TiepTheo.UseVisualStyleBackColor = false;
-            this.TiepTheo.Click += new System.EventHandler(this.TiepTheo_Click);
-            // 
-            // Sodiem
-            // 
-            this.Sodiem.Location = new System.Drawing.Point(645, 111);
-            this.Sodiem.Name = "Sodiem";
-            this.Sodiem.Size = new System.Drawing.Size(79, 26);
-            this.Sodiem.TabIndex = 18;
-            this.Sodiem.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.Sodiem.TextChanged += new System.EventHandler(this.Sodiem_TextChanged);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(642, 92);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(62, 16);
-            this.label8.TabIndex = 17;
-            this.label8.Text = "Số Điểm";
-            // 
-            // LoaiDiem
-            // 
-            this.LoaiDiem.FormattingEnabled = true;
-            this.LoaiDiem.Items.AddRange(new object[] {
-            "Miệng 1",
-            "Miệng 2",
-            "Miệng 3",
-            "Miệng 4",
-            "Miệng 5",
-            "15 Phút 1",
-            "15 Phút 2",
-            "15 Phút 3",
-            "15 Phút 4",
-            "15 Phút 5",
-            "15 Phút 6",
-            "1 Tiết 1",
-            "1 Tiết 2",
-            "1 Tiết 3",
-            "1 Tiết 4",
-            "1 Tiết 5",
-            "1 Tiết 6",
-            "Thi"});
-            this.LoaiDiem.Location = new System.Drawing.Point(446, 111);
-            this.LoaiDiem.Name = "LoaiDiem";
-            this.LoaiDiem.Size = new System.Drawing.Size(150, 27);
-            this.LoaiDiem.TabIndex = 16;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(443, 92);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(73, 16);
-            this.label7.TabIndex = 15;
-            this.label7.Text = "Loại Điểm";
-            // 
-            // HoTen
-            // 
-            this.HoTen.Location = new System.Drawing.Point(220, 111);
-            this.HoTen.Name = "HoTen";
-            this.HoTen.Size = new System.Drawing.Size(198, 26);
-            this.HoTen.TabIndex = 14;
-            this.HoTen.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(217, 92);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 16);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "Họ Tên";
-            // 
-            // MaHS
-            // 
-            this.MaHS.Location = new System.Drawing.Point(30, 111);
-            this.MaHS.Name = "MaHS";
-            this.MaHS.Size = new System.Drawing.Size(138, 26);
-            this.MaHS.TabIndex = 12;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(27, 92);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(88, 16);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "Mã Học Sinh";
+            this.Luu.BackColor = System.Drawing.Color.White;
+            this.Luu.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Luu.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.Luu.Location = new System.Drawing.Point(605, 108);
+            this.Luu.Name = "Luu";
+            this.Luu.Size = new System.Drawing.Size(116, 35);
+            this.Luu.TabIndex = 19;
+            this.Luu.Text = "Lưu";
+            this.Luu.UseVisualStyleBackColor = false;
+            this.Luu.Click += new System.EventHandler(this.Luu_Click);
             // 
             // hocky2
             // 
             this.hocky2.AutoSize = true;
             this.hocky2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.hocky2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hocky2.Location = new System.Drawing.Point(645, 52);
+            this.hocky2.Location = new System.Drawing.Point(630, 66);
             this.hocky2.Name = "hocky2";
             this.hocky2.Size = new System.Drawing.Size(79, 20);
             this.hocky2.TabIndex = 10;
             this.hocky2.TabStop = true;
             this.hocky2.Text = "Học kỳ 2";
             this.hocky2.UseVisualStyleBackColor = true;
-            this.hocky2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            this.hocky2.CheckedChanged += new System.EventHandler(this.hocky2_CheckedChanged);
             // 
             // hocky1
             // 
@@ -257,7 +120,7 @@
             this.hocky1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.hocky1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hocky1.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.hocky1.Location = new System.Drawing.Point(645, 25);
+            this.hocky1.Location = new System.Drawing.Point(630, 39);
             this.hocky1.Name = "hocky1";
             this.hocky1.Size = new System.Drawing.Size(79, 20);
             this.hocky1.TabIndex = 9;
@@ -269,9 +132,9 @@
             // Lop
             // 
             this.Lop.FormattingEnabled = true;
-            this.Lop.Location = new System.Drawing.Point(220, 45);
+            this.Lop.Location = new System.Drawing.Point(204, 58);
             this.Lop.Name = "Lop";
-            this.Lop.Size = new System.Drawing.Size(155, 27);
+            this.Lop.Size = new System.Drawing.Size(129, 27);
             this.Lop.TabIndex = 8;
             this.Lop.SelectedIndexChanged += new System.EventHandler(this.Lop_SelectedIndexChanged);
             // 
@@ -279,7 +142,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(418, 26);
+            this.label4.Location = new System.Drawing.Point(402, 39);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(35, 16);
             this.label4.TabIndex = 7;
@@ -302,16 +165,17 @@
             "Ngoại Ngữ",
             "Giáo Dục Quốc Phòng",
             "Thể Dục"});
-            this.Mon.Location = new System.Drawing.Point(421, 45);
+            this.Mon.Location = new System.Drawing.Point(405, 58);
             this.Mon.Name = "Mon";
-            this.Mon.Size = new System.Drawing.Size(175, 27);
+            this.Mon.Size = new System.Drawing.Size(129, 27);
             this.Mon.TabIndex = 6;
+            this.Mon.SelectedIndexChanged += new System.EventHandler(this.Mon_SelectedIndexChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(217, 26);
+            this.label3.Location = new System.Drawing.Point(201, 39);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(33, 16);
             this.label3.TabIndex = 5;
@@ -335,16 +199,17 @@
             "10",
             "11",
             "12"});
-            this.Khoi.Location = new System.Drawing.Point(30, 45);
+            this.Khoi.Location = new System.Drawing.Point(25, 58);
             this.Khoi.Name = "Khoi";
-            this.Khoi.Size = new System.Drawing.Size(138, 27);
+            this.Khoi.Size = new System.Drawing.Size(103, 27);
             this.Khoi.TabIndex = 2;
+            this.Khoi.SelectedIndexChanged += new System.EventHandler(this.Khoi_SelectedIndexChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(30, 26);
+            this.label1.Location = new System.Drawing.Point(25, 39);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(37, 16);
             this.label1.TabIndex = 1;
@@ -364,182 +229,168 @@
             this.Thoat.UseVisualStyleBackColor = false;
             this.Thoat.Click += new System.EventHandler(this.Thoat_Click);
             // 
-            // lvBangDiem
+            // dgvNhapDiem
             // 
-            this.lvBangDiem.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader2,
-            this.columnHeader3,
-            this.columnHeader4,
-            this.columnHeader5,
-            this.columnHeader6,
-            this.columnHeader7,
-            this.columnHeader8,
-            this.columnHeader9,
-            this.columnHeader10,
-            this.columnHeader11,
-            this.columnHeader12,
-            this.columnHeader13,
-            this.columnHeader14,
-            this.columnHeader15,
-            this.columnHeader16,
-            this.columnHeader17,
-            this.columnHeader18,
-            this.columnHeader19,
-            this.columnHeader20,
-            this.columnHeader21,
-            this.columnHeader22,
-            this.columnHeader23});
-            this.lvBangDiem.GridLines = true;
-            this.lvBangDiem.Location = new System.Drawing.Point(0, 196);
-            this.lvBangDiem.Name = "lvBangDiem";
-            this.lvBangDiem.Size = new System.Drawing.Size(781, 313);
-            this.lvBangDiem.TabIndex = 34;
-            this.lvBangDiem.UseCompatibleStateImageBehavior = false;
-            this.lvBangDiem.View = System.Windows.Forms.View.Details;
-            this.lvBangDiem.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
+            this.dgvNhapDiem.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvNhapDiem.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4,
+            this.Column6,
+            this.Column7,
+            this.Column5,
+            this.Column8,
+            this.Column9,
+            this.Column10,
+            this.Column11,
+            this.Column12,
+            this.Column13,
+            this.Column14,
+            this.Column15,
+            this.Column16,
+            this.Column17,
+            this.Column18,
+            this.Column19,
+            this.Column20,
+            this.Column21});
+            this.dgvNhapDiem.Location = new System.Drawing.Point(0, 154);
+            this.dgvNhapDiem.Name = "dgvNhapDiem";
+            this.dgvNhapDiem.Size = new System.Drawing.Size(787, 361);
+            this.dgvNhapDiem.TabIndex = 3;
             // 
-            // columnHeader1
+            // Column1
             // 
-            this.columnHeader1.Text = "STT ";
-            this.columnHeader1.Width = 42;
+            this.Column1.HeaderText = "Mã Học Sinh";
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 95;
             // 
-            // columnHeader2
+            // Column2
             // 
-            this.columnHeader2.Text = "Mã Học Sinh";
-            this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader2.Width = 77;
+            this.Column2.HeaderText = "Họ Tên";
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 150;
             // 
-            // columnHeader3
+            // Column3
             // 
-            this.columnHeader3.Text = "Họ Tên";
-            this.columnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader3.Width = 206;
+            this.Column3.HeaderText = "M1";
+            this.Column3.Name = "Column3";
+            this.Column3.Width = 40;
             // 
-            // columnHeader4
+            // Column4
             // 
-            this.columnHeader4.Text = "M1";
-            this.columnHeader4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader4.Width = 45;
+            this.Column4.HeaderText = "M2";
+            this.Column4.Name = "Column4";
+            this.Column4.Width = 40;
             // 
-            // columnHeader5
+            // Column6
             // 
-            this.columnHeader5.Text = "M2";
-            this.columnHeader5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader5.Width = 40;
+            this.Column6.HeaderText = "M3";
+            this.Column6.Name = "Column6";
+            this.Column6.Width = 40;
             // 
-            // columnHeader6
+            // Column7
             // 
-            this.columnHeader6.Text = "M3";
-            this.columnHeader6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader6.Width = 40;
+            this.Column7.HeaderText = "M4";
+            this.Column7.Name = "Column7";
+            this.Column7.Width = 40;
             // 
-            // columnHeader7
+            // Column5
             // 
-            this.columnHeader7.Text = "M4";
-            this.columnHeader7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader7.Width = 45;
+            this.Column5.HeaderText = "M5";
+            this.Column5.Name = "Column5";
+            this.Column5.Width = 40;
             // 
-            // columnHeader8
+            // Column8
             // 
-            this.columnHeader8.Text = "M5";
-            this.columnHeader8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader8.Width = 42;
+            this.Column8.HeaderText = "15P1";
+            this.Column8.Name = "Column8";
+            this.Column8.Width = 40;
             // 
-            // columnHeader9
+            // Column9
             // 
-            this.columnHeader9.Text = "15P1";
-            this.columnHeader9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader9.Width = 42;
+            this.Column9.HeaderText = "15P2";
+            this.Column9.Name = "Column9";
+            this.Column9.Width = 40;
             // 
-            // columnHeader10
+            // Column10
             // 
-            this.columnHeader10.Text = "15P2";
-            this.columnHeader10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader10.Width = 44;
+            this.Column10.HeaderText = "15P3";
+            this.Column10.Name = "Column10";
+            this.Column10.Width = 40;
             // 
-            // columnHeader11
+            // Column11
             // 
-            this.columnHeader11.Text = "15P3";
-            this.columnHeader11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader11.Width = 41;
+            this.Column11.HeaderText = "15P4";
+            this.Column11.Name = "Column11";
+            this.Column11.Width = 40;
             // 
-            // columnHeader12
+            // Column12
             // 
-            this.columnHeader12.Text = "15P4";
-            this.columnHeader12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader12.Width = 44;
+            this.Column12.HeaderText = "15P5";
+            this.Column12.Name = "Column12";
+            this.Column12.Width = 40;
             // 
-            // columnHeader13
+            // Column13
             // 
-            this.columnHeader13.Text = "15P5";
-            this.columnHeader13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader13.Width = 44;
+            this.Column13.HeaderText = "15P6";
+            this.Column13.Name = "Column13";
+            this.Column13.Width = 40;
             // 
-            // columnHeader14
+            // Column14
             // 
-            this.columnHeader14.Text = "15P6";
-            this.columnHeader14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader14.Width = 45;
+            this.Column14.HeaderText = "1T1";
+            this.Column14.Name = "Column14";
+            this.Column14.Width = 40;
             // 
-            // columnHeader15
+            // Column15
             // 
-            this.columnHeader15.Text = "1T1";
-            this.columnHeader15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader15.Width = 40;
+            this.Column15.HeaderText = "1T2";
+            this.Column15.Name = "Column15";
+            this.Column15.Width = 40;
             // 
-            // columnHeader16
+            // Column16
             // 
-            this.columnHeader16.Text = "1T2";
-            this.columnHeader16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader16.Width = 43;
+            this.Column16.HeaderText = "1T3";
+            this.Column16.Name = "Column16";
+            this.Column16.Width = 40;
             // 
-            // columnHeader17
+            // Column17
             // 
-            this.columnHeader17.Text = "1T3";
-            this.columnHeader17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader17.Width = 37;
+            this.Column17.HeaderText = "1T4";
+            this.Column17.Name = "Column17";
+            this.Column17.Width = 40;
             // 
-            // columnHeader18
+            // Column18
             // 
-            this.columnHeader18.Text = "1T4";
-            this.columnHeader18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader18.Width = 40;
+            this.Column18.HeaderText = "1T5";
+            this.Column18.Name = "Column18";
+            this.Column18.Width = 40;
             // 
-            // columnHeader19
+            // Column19
             // 
-            this.columnHeader19.Text = "1T5";
-            this.columnHeader19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader19.Width = 40;
+            this.Column19.HeaderText = "1T6";
+            this.Column19.Name = "Column19";
+            this.Column19.Width = 40;
             // 
-            // columnHeader20
+            // Column20
             // 
-            this.columnHeader20.Text = "1T6";
-            this.columnHeader20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader20.Width = 41;
+            this.Column20.HeaderText = "Thi";
+            this.Column20.Name = "Column20";
+            this.Column20.Width = 40;
             // 
-            // columnHeader21
+            // Column21
             // 
-            this.columnHeader21.Text = "Thi";
-            this.columnHeader21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader21.Width = 41;
-            // 
-            // columnHeader22
-            // 
-            this.columnHeader22.Text = "ĐTB";
-            this.columnHeader22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader22.Width = 66;
-            // 
-            // columnHeader23
-            // 
-            this.columnHeader23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Column21.HeaderText = "ĐTB";
+            this.Column21.Name = "Column21";
+            this.Column21.Width = 40;
             // 
             // GUI_NHAPDIEM
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
-            this.Controls.Add(this.lvBangDiem);
+            this.Controls.Add(this.dgvNhapDiem);
             this.Controls.Add(this.Thoat);
             this.Controls.Add(this.groupBox1);
             this.Name = "GUI_NHAPDIEM";
@@ -547,6 +398,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvNhapDiem)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -563,42 +415,30 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.RadioButton hocky2;
         private System.Windows.Forms.RadioButton hocky1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox LoaiDiem;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox HoTen;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox MaHS;
-        private System.Windows.Forms.Button QuayLai;
-        private System.Windows.Forms.Button TiepTheo;
-        private System.Windows.Forms.TextBox Sodiem;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button Luu;
         private System.Windows.Forms.Button Thoat;
-        private System.Windows.Forms.Label lblThongBao;
-        private System.Windows.Forms.ListView lvBangDiem;
-        private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.ColumnHeader columnHeader2;
-        private System.Windows.Forms.ColumnHeader columnHeader3;
-        private System.Windows.Forms.ColumnHeader columnHeader4;
-        private System.Windows.Forms.ColumnHeader columnHeader5;
-        private System.Windows.Forms.ColumnHeader columnHeader6;
-        private System.Windows.Forms.ColumnHeader columnHeader7;
-        private System.Windows.Forms.ColumnHeader columnHeader8;
-        private System.Windows.Forms.ColumnHeader columnHeader9;
-        private System.Windows.Forms.ColumnHeader columnHeader10;
-        private System.Windows.Forms.ColumnHeader columnHeader11;
-        private System.Windows.Forms.ColumnHeader columnHeader12;
-        private System.Windows.Forms.ColumnHeader columnHeader13;
-        private System.Windows.Forms.ColumnHeader columnHeader14;
-        private System.Windows.Forms.ColumnHeader columnHeader15;
-        private System.Windows.Forms.ColumnHeader columnHeader16;
-        private System.Windows.Forms.ColumnHeader columnHeader17;
-        private System.Windows.Forms.ColumnHeader columnHeader18;
-        private System.Windows.Forms.ColumnHeader columnHeader19;
-        private System.Windows.Forms.ColumnHeader columnHeader20;
-        private System.Windows.Forms.ColumnHeader columnHeader21;
-        private System.Windows.Forms.ColumnHeader columnHeader22;
-        private System.Windows.Forms.ColumnHeader columnHeader23;
+        private System.Windows.Forms.DataGridView dgvNhapDiem;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column14;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column15;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column16;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column17;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column18;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column19;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column20;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column21;
     }
 }
 

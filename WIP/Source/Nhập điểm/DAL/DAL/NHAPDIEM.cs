@@ -12,397 +12,53 @@ namespace DAL
 {
     public class NHAPDIEM
     {
-        public SqlConnection getConnect()
-        {
-            return new SqlConnection(@"Data Source=USER;Initial Catalog=TestNhapDiem;Integrated Security=True");
-        }
+        public SqlConnection conn = new SqlConnection(@"Data Source=USER;Initial Catalog=TestNhapDiem;Integrated Security=True");
+        public SqlDataAdapter da;
+        public SqlCommandBuilder sqlComd;
 
-        public DataTable getBangDiemHK1()
+        public DataTable getMaLop(String maKhoi)
         {
-            SqlConnection conn = getConnect();
-            SqlDataAdapter da = new SqlDataAdapter("select HSHS.MAHS, HOTEN, KTM1, KTM2, KTM3, KTM4, KTM5, KT15P1, KT15P2, KT15P3, KT15P4, KT15P5, KT15P6, KT1T1, KT1T2, KT1T3, KT1T4, KT1T5, KT1T6, DIEMTHI, DIEMTB  from HSHS, BANGDIEM    where HSHS.MAHS = BANGDIEM.MAHS, MAHK = 1", conn);
-            DataTable dtBangDiem = new DataTable();
-            da.Fill(dtBangDiem);
-            return dtBangDiem;
-        }
-
-        public DataTable getBangDiemHK2()
-        {
-            SqlConnection conn = getConnect();
-            SqlDataAdapter da = new SqlDataAdapter("select HSHS.MAHS, HOTEN, KTM1, KTM2, KTM3, KTM4, KTM5, KT15P1, KT15P2, KT15P3, KT15P4, KT15P5, KT15P6, KT1T1, KT1T2, KT1T3, KT1T4, KT1T5, KT1T6, DIEMTHI, DIEMTB  from HSHS, BANGDIEM    where HSHS.MAHS = BANGDIEM.MAHS, MAHK = 2", conn);
-            DataTable dtBangDiem = new DataTable();
-            da.Fill(dtBangDiem);
-            return dtBangDiem;
-        }
-
-        public DataTable getMaLop10()
-        {
-            SqlConnection conn = getConnect();
-            SqlDataAdapter da = new SqlDataAdapter("select MALOP from LOP where MALOP like '10%' order by MALOP ASC", conn);
-            DataTable dtMaLop = new DataTable();
-            da.Fill(dtMaLop);
-            return dtMaLop;
-        }
-
-        public DataTable getMaLop11()
-        {
-            SqlConnection conn = getConnect();
-            SqlDataAdapter da = new SqlDataAdapter("select MALOP from LOP where MALOP like '11%' order by MALOP ASC", conn);
-            DataTable dtMaLop = new DataTable();
-            da.Fill(dtMaLop);
-            return dtMaLop;
-        }
-
-        public DataTable getMaLop12()
-        {
-            SqlConnection conn = getConnect();
-            SqlDataAdapter da = new SqlDataAdapter("select MALOP from LOP where MALOP like '12%' order by MALOP ASC", conn);
-            DataTable dtMaLop = new DataTable();
-            da.Fill(dtMaLop);
-            return dtMaLop;
-        }
-
-        public void NhapDiemKTM1(BANGDIEM BD)
-        {
-            SqlConnection conn = getConnect();
             try
             {
-                conn.Open();
-                string SQL = string.Format("UPDATE BANGDIEM SET KTM1 = {1}, DIEMTB = {2}", BD.KTM1, BD.DIEMTB);
-                SqlCommand cmd = new SqlCommand(SQL, conn);
+                SqlDataAdapter da = new SqlDataAdapter("select MALOP from LOP where MALOP like '" + maKhoi + "%' order by MALOP ASC", conn);
+                DataTable dtMaLop = new DataTable();
+                da.Fill(dtMaLop);
+                return dtMaLop;
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
 
             }
-            finally
-            {
-                conn.Close();
-            }
+            return null;
         }
 
-        public void NhapDiemKTM2(BANGDIEM BD)
+
+        public DataTable getBangDiem(String MaLop, String MaHocKy, String Mon)
         {
-            SqlConnection conn = getConnect();
             try
             {
-                conn.Open();
-                string SQL = string.Format("UPDATE BANGDIEM SET KTM2 = {1}, DIEMTB = {2}", BD.KTM2, BD.DIEMTB);
-                SqlCommand cmd = new SqlCommand(SQL, conn);
+                SqlDataAdapter da = new SqlDataAdapter("select HSHS.MAHS, HSHS.HOTEN, KTM1, KTM2, KTM3, KTM4, KTM5, KT15P1, KT15P2, KT15P3, KT15P4, KT15P5, KT15P6, KT1T1, KT1T2, KT1T3, KT1T4, KT1T5, KT1T6, DIEMTHI, DIEMTB  from BANGDIEM , HSHS   where HSHS.MAHS = BANGDIEM.MAHS and MALOP = '" + MaLop + "' and MAHK = " + MaHocKy + " and MAMONHOC= '" + Mon + "'", conn);
+                DataTable dtMaLop = new DataTable();
+                da.Fill(dtMaLop);
+                return dtMaLop;
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
 
             }
-            finally
-            {
-                conn.Close();
-            }
+            return null;
         }
 
-        public void NhapDiemKTM3(BANGDIEM BD)
+
+        public void CapNhatDiem()
         {
-            SqlConnection conn = getConnect();
-            try
-            {
-                conn.Open();
-                string SQL = string.Format("UPDATE BANGDIEM SET KTM3 = {1}, DIEMTB = {2}", BD.KTM3, BD.DIEMTB);
-                SqlCommand cmd = new SqlCommand(SQL, conn);
-            }
-            catch (Exception e)
-            {
-
-            }
-            finally
-            {
-                conn.Close();
-            }
+            //try
+            //{
+            //    SqlConnection conn = getConnect();
+            //    conn.Open();
+            //    sqlcomd = new SqlCommandBuilder(da)
+            //}
         }
 
-        public void NhapDiemKTM4(BANGDIEM BD)
-        {
-            SqlConnection conn = getConnect();
-            try
-            {
-                conn.Open();
-                string SQL = string.Format("UPDATE BANGDIEM SET KTM4 = {1}, DIEMTB = {2}", BD.KTM4, BD.DIEMTB);
-                SqlCommand cmd = new SqlCommand(SQL, conn);
-            }
-            catch (Exception e)
-            {
-
-            }
-            finally
-            {
-                conn.Close();
-            }
-        }
-
-        public void NhapDiemKTM5(BANGDIEM BD)
-        {
-            SqlConnection conn = getConnect();
-            try
-            {
-                conn.Open();
-                string SQL = string.Format("UPDATE BANGDIEM SET KTM5 = {1}, DIEMTB = {2}", BD.KTM5, BD.DIEMTB);
-                SqlCommand cmd = new SqlCommand(SQL, conn);
-            }
-            catch (Exception e)
-            {
-
-            }
-            finally
-            {
-                conn.Close();
-            }
-        }
-
-        public void NhapDiemKT15P1(BANGDIEM BD)
-        {
-            SqlConnection conn = getConnect();
-            try
-            {
-                conn.Open();
-                string SQL = string.Format("UPDATE BANGDIEM SET KT15P1 = {1}, DIEMTB = {2}", BD.KT15P1, BD.DIEMTB);
-                SqlCommand cmd = new SqlCommand(SQL, conn);
-            }
-            catch (Exception e)
-            {
-
-            }
-            finally
-            {
-                conn.Close();
-            }
-        }
-
-        public void NhapDiemKT15P2(BANGDIEM BD)
-        {
-            SqlConnection conn = getConnect();
-            try
-            {
-                conn.Open();
-                string SQL = string.Format("UPDATE BANGDIEM SET KT15P2 = {1}, DIEMTB = {2}", BD.KT15P2, BD.DIEMTB);
-                SqlCommand cmd = new SqlCommand(SQL, conn);
-            }
-            catch (Exception e)
-            {
-
-            }
-            finally
-            {
-                conn.Close();
-            }
-        }
-
-        public void NhapDiemKT15P3(BANGDIEM BD)
-        {
-            SqlConnection conn = getConnect();
-            try
-            {
-                conn.Open();
-                string SQL = string.Format("UPDATE BANGDIEM SET KT15P3 = {1}, DIEMTB = {2}", BD.KT15P3, BD.DIEMTB);
-                SqlCommand cmd = new SqlCommand(SQL, conn);
-            }
-            catch (Exception e)
-            {
-
-            }
-            finally
-            {
-                conn.Close();
-            }
-        }
-
-        public void NhapDiemKT15P4(BANGDIEM BD)
-        {
-            SqlConnection conn = getConnect();
-            try
-            {
-                conn.Open();
-                string SQL = string.Format("UPDATE BANGDIEM SET KT15P4 = {1}, DIEMTB = {2}", BD.KT15P4, BD.DIEMTB);
-                SqlCommand cmd = new SqlCommand(SQL, conn);
-            }
-            catch (Exception e)
-            {
-
-            }
-            finally
-            {
-                conn.Close();
-            }
-        }
-
-        public void NhapDiemKT15P5(BANGDIEM BD)
-        {
-            SqlConnection conn = getConnect();
-            try
-            {
-                conn.Open();
-                string SQL = string.Format("UPDATE BANGDIEM SET KT15P5 = {1}, DIEMTB = {2}", BD.KT15P5, BD.DIEMTB);
-                SqlCommand cmd = new SqlCommand(SQL, conn);
-            }
-            catch (Exception e)
-            {
-
-            }
-            finally
-            {
-                conn.Close();
-            }
-        }
-
-        public void NhapDiemKT15P6(BANGDIEM BD)
-        {
-            SqlConnection conn = getConnect();
-            try
-            {
-                conn.Open();
-                string SQL = string.Format("UPDATE BANGDIEM SET KT15P6 = {1}, DIEMTB = {2}", BD.KT15P6, BD.DIEMTB);
-                SqlCommand cmd = new SqlCommand(SQL, conn);
-            }
-            catch (Exception e)
-            {
-
-            }
-            finally
-            {
-                conn.Close();
-            }
-        }
-
-        public void NhapDiemKT1T1(BANGDIEM BD)
-        {
-            SqlConnection conn = getConnect();
-            try
-            {
-                conn.Open();
-                string SQL = string.Format("UPDATE BANGDIEM SET KT1T1 = {1}, DIEMTB = {2}", BD.KT1T1, BD.DIEMTB);
-                SqlCommand cmd = new SqlCommand(SQL, conn);
-            }
-            catch (Exception e)
-            {
-
-            }
-            finally
-            {
-                conn.Close();
-            }
-        }
-
-        public void NhapDiemKT1T2(BANGDIEM BD)
-        {
-            SqlConnection conn = getConnect();
-            try
-            {
-                conn.Open();
-                string SQL = string.Format("UPDATE BANGDIEM SET KT1T2 = {1}, DIEMTB = {2}", BD.KT1T2, BD.DIEMTB);
-                SqlCommand cmd = new SqlCommand(SQL, conn);
-            }
-            catch (Exception e)
-            {
-
-            }
-            finally
-            {
-                conn.Close();
-            }
-        }
-
-        public void NhapDiemKT1T3(BANGDIEM BD)
-        {
-            SqlConnection conn = getConnect();
-            try
-            {
-                conn.Open();
-                string SQL = string.Format("UPDATE BANGDIEM SET KT1T3 = {1}, DIEMTB = {2}", BD.KT1T3, BD.DIEMTB);
-                SqlCommand cmd = new SqlCommand(SQL, conn);
-            }
-            catch (Exception e)
-            {
-
-            }
-            finally
-            {
-                conn.Close();
-            }
-        }
-
-        public void NhapDiemKT1T4(BANGDIEM BD)
-        {
-            SqlConnection conn = getConnect();
-            try
-            {
-                conn.Open();
-                string SQL = string.Format("UPDATE BANGDIEM SET KT1T4 = {1}, DIEMTB = {2}", BD.KT1T4, BD.DIEMTB);
-                SqlCommand cmd = new SqlCommand(SQL, conn);
-            }
-            catch (Exception e)
-            {
-
-            }
-            finally
-            {
-                conn.Close();
-            }
-        }
-
-        public void NhapDiemKT1T5(BANGDIEM BD)
-        {
-            SqlConnection conn = getConnect();
-            try
-            {
-                conn.Open();
-                string SQL = string.Format("UPDATE BANGDIEM SET KT1T5 = {1}, DIEMTB = {2}", BD.KT1T5, BD.DIEMTB);
-                SqlCommand cmd = new SqlCommand(SQL, conn);
-            }
-            catch (Exception e)
-            {
-
-            }
-            finally
-            {
-                conn.Close();
-            }
-        }
-
-        public void NhapDiemKT1T6(BANGDIEM BD)
-        {
-            SqlConnection conn = getConnect();
-            try
-            {
-                conn.Open();
-                string SQL = string.Format("UPDATE BANGDIEM SET KT1T6 = {1}, DIEMTB = {2}", BD.KT1T6, BD.DIEMTB);
-                SqlCommand cmd = new SqlCommand(SQL, conn);
-            }
-            catch (Exception e)
-            {
-
-            }
-            finally
-            {
-                conn.Close();
-            }
-        }
-
-
-        public void NhapDiemThi(BANGDIEM BD)
-        {
-            SqlConnection conn = getConnect();
-            try
-            {
-                conn.Open();
-                string SQL = string.Format("UPDATE BANGDIEM SET DIEMTHI = {1}, DIEMTB = {2}", BD.DIEMTHI, BD.DIEMTB);
-                SqlCommand cmd = new SqlCommand(SQL, conn);
-            }
-            catch (Exception e)
-            {
-
-            }
-            finally
-            {
-                conn.Close();
-            }
-        }
     }
 }
