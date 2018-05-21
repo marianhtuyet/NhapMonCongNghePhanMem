@@ -263,12 +263,14 @@
             // 
             this.Column1.HeaderText = "Mã Học Sinh";
             this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
             this.Column1.Width = 95;
             // 
             // Column2
             // 
             this.Column2.HeaderText = "Họ Tên";
             this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
             this.Column2.Width = 150;
             // 
             // Column3
@@ -383,6 +385,7 @@
             // 
             this.Column21.HeaderText = "ĐTB";
             this.Column21.Name = "Column21";
+            this.Column21.ReadOnly = true;
             this.Column21.Width = 40;
             // 
             // GUI_NHAPDIEM

@@ -15,7 +15,7 @@ namespace DAL
         public SqlConnection conn = new SqlConnection(@"Data Source=USER;Initial Catalog=TestNhapDiem;Integrated Security=True");
         public SqlDataAdapter da;
         public SqlCommandBuilder sqlComd;
-
+        public DataSet dtBangDiem;
         public DataTable getMaLop(String maKhoi)
         {
             try
@@ -33,18 +33,25 @@ namespace DAL
         }
 
 
-        public DataTable getBangDiem(String MaLop, String MaHocKy, String Mon)
+       public DataTable getBangDiem(String MaLop, String MaHocKy, String Mon)
         {
             try
             {
-                SqlDataAdapter da = new SqlDataAdapter("select HSHS.MAHS, HSHS.HOTEN, KTM1, KTM2, KTM3, KTM4, KTM5, KT15P1, KT15P2, KT15P3, KT15P4, KT15P5, KT15P6, KT1T1, KT1T2, KT1T3, KT1T4, KT1T5, KT1T6, DIEMTHI, DIEMTB  from BANGDIEM , HSHS   where HSHS.MAHS = BANGDIEM.MAHS and MALOP = '" + MaLop + "' and MAHK = " + MaHocKy + " and MAMONHOC= '" + Mon + "'", conn);
-                DataTable dtMaLop = new DataTable();
-                da.Fill(dtMaLop);
-                return dtMaLop;
+                conn.Open();
+                string sql = "select HSHS.MAHS, HSHS.HOTEN, KTM1, KTM2, KTM3, KTM4, KTM5, KT15P1, KT15P2, KT15P3, KT15P4, KT15P5, KT15P6, KT1T1, KT1T2, KT1T3, KT1T4, KT1T5, KT1T6, DIEMTHI, DIEMTB  from BANGDIEM , HSHS   where HSHS.MAHS = BANGDIEM.MAHS and MALOP = '" + MaLop + "' and MAHK = " + MaHocKy + " and MAMONHOC= '" + Mon + "'";
+                SqlCommand cmd = new SqlCommand(sql, conn);
+                cmd.CommandType = CommandType.Text;
+                da = new SqlDataAdapter(cmd);
+                da.Fill(dtBangDiem);
+                return dtBangDiem.Tables[0];
             }
             catch (Exception ex)
             {
 
+            }
+            finally
+            {
+                conn.Close();
             }
             return null;
         }
@@ -52,12 +59,18 @@ namespace DAL
 
         public void CapNhatDiem()
         {
-            //try
-            //{
-            //    SqlConnection conn = getConnect();
-            //    conn.Open();
-            //    sqlcomd = new SqlCommandBuilder(da)
-            //}
+            try
+            {
+                conn.Open();
+                sqlComd = new SqlCommandBuilder(da);
+                da.Update(dtBangDiem);      
+            }
+            catch (Exception ex)
+            {
+
+            }
+           
+
         }
 
     }
