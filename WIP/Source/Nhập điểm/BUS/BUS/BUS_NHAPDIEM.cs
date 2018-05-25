@@ -25,7 +25,7 @@ namespace BUS
 
         public void CapNhatDiem()
         {
-            CapNhatDiem();
+            da.CapNhatDiem();
         }
     }
 }
