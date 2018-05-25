@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DTO_BangDiem.cs" />
     <Compile Include="DTO_LopHoc.cs" />
+    <Compile Include="DTO_MonHoc.cs" />
     <Compile Include="DTO_NamHoc.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DTO_ThayDoiQuyDinh.cs" />

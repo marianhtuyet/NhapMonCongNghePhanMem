@@ -159,6 +159,7 @@
             this.cbOldLopHoc.Name = "cbOldLopHoc";
             this.cbOldLopHoc.Size = new System.Drawing.Size(121, 22);
             this.cbOldLopHoc.TabIndex = 18;
+            this.cbOldLopHoc.SelectedIndexChanged += new System.EventHandler(this.cbOldLopHoc_SelectedIndexChanged);
             // 
             // cbOldNamHoc
             // 
@@ -167,6 +168,7 @@
             this.cbOldNamHoc.Name = "cbOldNamHoc";
             this.cbOldNamHoc.Size = new System.Drawing.Size(121, 22);
             this.cbOldNamHoc.TabIndex = 16;
+            this.cbOldNamHoc.SelectedIndexChanged += new System.EventHandler(this.cbOldNamHoc_SelectedIndexChanged);
             // 
             // label4
             // 

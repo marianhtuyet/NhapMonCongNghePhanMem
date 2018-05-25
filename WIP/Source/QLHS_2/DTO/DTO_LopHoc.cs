@@ -60,6 +60,10 @@ namespace DTO
             this._Malop = (int)row["malop"];
             this._TenLop = row["tenlop"].ToString();
         }
+        public DTO_LopHoc()
+        {
+
+        }
         
     }
 }

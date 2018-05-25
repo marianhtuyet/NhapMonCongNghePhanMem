@@ -26,5 +26,6 @@ namespace DTO
             this._MaNH = (int)row["manh"];
             this._TenNH = row["tennh"].ToString();
         }
+        public DTO_NamHoc() { }
     }
 }

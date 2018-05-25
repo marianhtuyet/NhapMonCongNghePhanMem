@@ -26,7 +26,7 @@ namespace DAL
 
         {
             string sqlDelete = "delete from QUYDINH";
-            string sqlInsert = "insert into QUYDINH values ( " + dtoQuyDinh._TuoiMax + ", " + dtoQuyDinh._TuoiMin + " , " + dtoQuyDinh._SiSo + ", " + dtoQuyDinh._DiemDat + ", " + dtoQuyDinh._DiemMax + "," + dtoQuyDinh._DiemMin + "," + dtoQuyDinh._SLMon + ")";
+            string sqlInsert = "insert into QUYDINH values ( " + dtoQuyDinh._TuoiMax + ", " + dtoQuyDinh._TuoiMin + " , " + dtoQuyDinh._SiSo + ", " + dtoQuyDinh._DiemDat + ", " + dtoQuyDinh._DiemMax + "," + dtoQuyDinh._DiemMin + "," + dtoQuyDinh._SLMon +", " + dtoQuyDinh._Lop10 + "," + dtoQuyDinh._Lop11 +","+ dtoQuyDinh._Lop12 +")";
             _conn.Open();
 
             SqlCommand cmdDelete = new SqlCommand(sqlDelete, _conn);

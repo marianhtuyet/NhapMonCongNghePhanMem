@@ -94,6 +94,7 @@ namespace GUI
             {
                 MessageBox.Show("Không lấy được danh sách lớp cũ!");
             }
+       
         }
 
         private void btnXemLop_Click(object sender, EventArgs e)
@@ -108,6 +109,7 @@ namespace GUI
             {
                 MessageBox.Show("Không lấy được danh sách lớp cũ!");
             }
+           
         }
 
 
@@ -134,7 +136,7 @@ namespace GUI
             }
             dgvDSLop.DataSource = busChuyenLop.getDSLop(OldMaNH, OldMaLop);
             dgvDSLopMoi.DataSource = busChuyenLop2.getDSLop(MaNH, MaLop);
-
+            lMaHS = new List<int>();
         }
         private void dgvDSLopMoi_CellClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -155,11 +157,21 @@ namespace GUI
             }
             dgvDSLop.DataSource = busChuyenLop2.getDSLop(OldMaNH, OldMaLop);
             dgvDSLopMoi.DataSource = busChuyenLop2.getDSLop(MaNH, MaLop);
-
+            lMaHS2 = new List<int>();
 
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void cbOldLopHoc_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbOldNamHoc_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

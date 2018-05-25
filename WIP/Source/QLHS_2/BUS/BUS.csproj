@@ -42,7 +42,9 @@
   <ItemGroup>
     <Compile Include="BUS_ChuyenLop.cs" />
     <Compile Include="BUS_LopHoc.cs" />
+    <Compile Include="BUS_MonHoc.cs" />
     <Compile Include="BUS_NamHoc.cs" />
+    <Compile Include="BUS_NhapDiem.cs" />
     <Compile Include="BUS_TaoLop.cs" />
     <Compile Include="BUS_ThayDoiQuyDinh.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

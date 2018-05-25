@@ -44,7 +44,9 @@
   <ItemGroup>
     <Compile Include="DAL_ChuyenLop.cs" />
     <Compile Include="DAL_DBConnect.cs" />
+    <Compile Include="DAL_MonHoc.cs" />
     <Compile Include="DAL_NamHoc.cs" />
+    <Compile Include="DAL_NhapDiem.cs" />
     <Compile Include="DAL_TaoLop.cs" />
     <Compile Include="DAL_ThayDoiQuyDinh.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

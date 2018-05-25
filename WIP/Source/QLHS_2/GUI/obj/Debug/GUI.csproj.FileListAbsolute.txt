@@ -30,3 +30,4 @@ D:\AnhTuyet\BaiHoc\Github\demoCSharp\QLHS_2\GUI\obj\Debug\GUI.Properties.Resourc
 D:\AnhTuyet\BaiHoc\Github\demoCSharp\QLHS_2\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
 D:\AnhTuyet\BaiHoc\Github\demoCSharp\QLHS_2\GUI\obj\Debug\GUI.frmChuyenLop.resources
 D:\AnhTuyet\BaiHoc\Github\demoCSharp\QLHS_2\GUI\obj\Debug\GUI.frmThayDoiQuyDinh.resources
+D:\AnhTuyet\BaiHoc\Github\demoCSharp\QLHS_2\GUI\obj\Debug\GUI.frmNhapDiem.resources

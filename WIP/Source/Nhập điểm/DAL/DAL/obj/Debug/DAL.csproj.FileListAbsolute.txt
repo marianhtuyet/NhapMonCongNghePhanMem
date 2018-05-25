@@ -12,3 +12,10 @@ D:\Nhập điểm\DAL\DAL\bin\Debug\DTO.pdb
 D:\Nhập điểm\DAL\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 D:\Nhập điểm\DAL\DAL\obj\Debug\DAL.dll
 D:\Nhập điểm\DAL\DAL\obj\Debug\DAL.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Nhập điểm\DAL\DAL\bin\Debug\DAL.dll
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Nhập điểm\DAL\DAL\bin\Debug\DAL.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Nhập điểm\DAL\DAL\bin\Debug\DTO.dll
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Nhập điểm\DAL\DAL\bin\Debug\DTO.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Nhập điểm\DAL\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Nhập điểm\DAL\DAL\obj\Debug\DAL.dll
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Nhập điểm\DAL\DAL\obj\Debug\DAL.pdb

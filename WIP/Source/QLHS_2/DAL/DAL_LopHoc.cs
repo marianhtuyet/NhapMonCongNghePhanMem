@@ -27,12 +27,8 @@ namespace DAL
             {
                 DTO_LopHoc dtoLopHoc = new DTO_LopHoc(item);
                 listDTO_LopHoc.Add(dtoLopHoc);
-
             }
             return listDTO_LopHoc;
-
         }
-
-       
     }
 }

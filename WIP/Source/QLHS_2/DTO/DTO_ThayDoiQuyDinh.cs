@@ -15,6 +15,10 @@ namespace DTO
         public int _DiemMax;
         public int _DiemMin;
         public int _SLMon;
+        public int _Lop10;
+        public int _Lop11;
+        public int _Lop12;
+
         public int TuoiMax
         {
             get { return _TuoiMax; }
@@ -50,6 +54,21 @@ namespace DTO
         {
             get { return _SLMon; }
             set { _SLMon = value; }
+        }
+        public int Lop10
+        {
+            get { return _Lop10; }
+            set { _Lop10 = value; }
+        }
+        public int Lop11
+        {
+            get { return _Lop11; }
+            set { _Lop11 = value; }
+        }
+        public int Lop12
+        {
+            get { return _Lop12; }
+            set { _Lop12 = value; }
         }
         //DTO_ThayDoiQuyDinh(int tuoimax, int tuoimin, int siso, int diemdat, int diemmax,int diemmin, int slmon)
         //{

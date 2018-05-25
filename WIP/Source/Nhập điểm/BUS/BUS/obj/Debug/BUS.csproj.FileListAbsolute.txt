@@ -16,3 +16,12 @@ D:\Nhập điểm\BUS\BUS\bin\Debug\DTO.pdb
 D:\Nhập điểm\BUS\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
 D:\Nhập điểm\BUS\BUS\obj\Debug\BUS.dll
 D:\Nhập điểm\BUS\BUS\obj\Debug\BUS.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Nhập điểm\BUS\BUS\bin\Debug\BUS.dll
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Nhập điểm\BUS\BUS\bin\Debug\BUS.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Nhập điểm\BUS\BUS\bin\Debug\DAL.dll
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Nhập điểm\BUS\BUS\bin\Debug\DTO.dll
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Nhập điểm\BUS\BUS\bin\Debug\DAL.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Nhập điểm\BUS\BUS\bin\Debug\DTO.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Nhập điểm\BUS\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Nhập điểm\BUS\BUS\obj\Debug\BUS.dll
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\Nhập điểm\BUS\BUS\obj\Debug\BUS.pdb

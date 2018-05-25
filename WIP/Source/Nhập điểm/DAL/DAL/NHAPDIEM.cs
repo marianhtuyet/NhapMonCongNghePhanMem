@@ -12,7 +12,7 @@ namespace DAL
 {
     public class NHAPDIEM
     {
-        public SqlConnection conn = new SqlConnection(@"Data Source=USER;Initial Catalog=TestNhapDiem;Integrated Security=True");
+        public SqlConnection conn = new SqlConnection(@"Data Source = DESKTOP-OOGJF5J\SQLEXPRESS;Initial Catalog=TestNhapDiem;Integrated Security=True");
         public SqlDataAdapter da;
         public SqlCommandBuilder sqlComd;
         public DataSet dtBangDiem;

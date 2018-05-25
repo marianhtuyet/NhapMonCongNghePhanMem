@@ -82,19 +82,20 @@
             this.groupBox1.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(787, 148);
+            this.groupBox1.Size = new System.Drawing.Size(787, 159);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "NHẬP BẢNG ĐIỂM MÔN HỌC";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // Luu
             // 
             this.Luu.BackColor = System.Drawing.Color.White;
             this.Luu.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Luu.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.Luu.Location = new System.Drawing.Point(605, 108);
+            this.Luu.Location = new System.Drawing.Point(605, 116);
             this.Luu.Name = "Luu";
-            this.Luu.Size = new System.Drawing.Size(116, 35);
+            this.Luu.Size = new System.Drawing.Size(116, 38);
             this.Luu.TabIndex = 19;
             this.Luu.Text = "Lưu";
             this.Luu.UseVisualStyleBackColor = false;
@@ -105,7 +106,7 @@
             this.hocky2.AutoSize = true;
             this.hocky2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.hocky2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hocky2.Location = new System.Drawing.Point(630, 66);
+            this.hocky2.Location = new System.Drawing.Point(630, 71);
             this.hocky2.Name = "hocky2";
             this.hocky2.Size = new System.Drawing.Size(79, 20);
             this.hocky2.TabIndex = 10;
@@ -120,7 +121,7 @@
             this.hocky1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.hocky1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hocky1.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.hocky1.Location = new System.Drawing.Point(630, 39);
+            this.hocky1.Location = new System.Drawing.Point(630, 42);
             this.hocky1.Name = "hocky1";
             this.hocky1.Size = new System.Drawing.Size(79, 20);
             this.hocky1.TabIndex = 9;
@@ -132,7 +133,7 @@
             // Lop
             // 
             this.Lop.FormattingEnabled = true;
-            this.Lop.Location = new System.Drawing.Point(204, 58);
+            this.Lop.Location = new System.Drawing.Point(204, 62);
             this.Lop.Name = "Lop";
             this.Lop.Size = new System.Drawing.Size(129, 27);
             this.Lop.TabIndex = 8;
@@ -142,7 +143,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(402, 39);
+            this.label4.Location = new System.Drawing.Point(402, 42);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(35, 16);
             this.label4.TabIndex = 7;
@@ -165,7 +166,7 @@
             "Ngoại Ngữ",
             "Giáo Dục Quốc Phòng",
             "Thể Dục"});
-            this.Mon.Location = new System.Drawing.Point(405, 58);
+            this.Mon.Location = new System.Drawing.Point(405, 62);
             this.Mon.Name = "Mon";
             this.Mon.Size = new System.Drawing.Size(129, 27);
             this.Mon.TabIndex = 6;
@@ -175,7 +176,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(201, 39);
+            this.label3.Location = new System.Drawing.Point(201, 42);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(33, 16);
             this.label3.TabIndex = 5;
@@ -186,7 +187,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(0, 45);
+            this.label2.Location = new System.Drawing.Point(0, 48);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(0, 16);
             this.label2.TabIndex = 3;
@@ -199,7 +200,7 @@
             "10",
             "11",
             "12"});
-            this.Khoi.Location = new System.Drawing.Point(25, 58);
+            this.Khoi.Location = new System.Drawing.Point(25, 62);
             this.Khoi.Name = "Khoi";
             this.Khoi.Size = new System.Drawing.Size(103, 27);
             this.Khoi.TabIndex = 2;
@@ -209,7 +210,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(25, 39);
+            this.label1.Location = new System.Drawing.Point(25, 42);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(37, 16);
             this.label1.TabIndex = 1;
@@ -221,9 +222,9 @@
             this.Thoat.BackColor = System.Drawing.Color.White;
             this.Thoat.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Thoat.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.Thoat.Location = new System.Drawing.Point(683, 521);
+            this.Thoat.Location = new System.Drawing.Point(683, 561);
             this.Thoat.Name = "Thoat";
-            this.Thoat.Size = new System.Drawing.Size(89, 28);
+            this.Thoat.Size = new System.Drawing.Size(89, 30);
             this.Thoat.TabIndex = 2;
             this.Thoat.Text = "Thoát";
             this.Thoat.UseVisualStyleBackColor = false;
@@ -254,9 +255,9 @@
             this.Column19,
             this.Column20,
             this.Column21});
-            this.dgvNhapDiem.Location = new System.Drawing.Point(0, 154);
+            this.dgvNhapDiem.Location = new System.Drawing.Point(0, 166);
             this.dgvNhapDiem.Name = "dgvNhapDiem";
-            this.dgvNhapDiem.Size = new System.Drawing.Size(787, 361);
+            this.dgvNhapDiem.Size = new System.Drawing.Size(787, 389);
             this.dgvNhapDiem.TabIndex = 3;
             // 
             // Column1
@@ -390,9 +391,9 @@
             // 
             // GUI_NHAPDIEM
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 561);
+            this.ClientSize = new System.Drawing.Size(784, 604);
             this.Controls.Add(this.dgvNhapDiem);
             this.Controls.Add(this.Thoat);
             this.Controls.Add(this.groupBox1);
