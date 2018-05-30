@@ -30,10 +30,6 @@
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.dgvNhapDiem = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnXem = new System.Windows.Forms.Button();
             this.btnQuayLai = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
@@ -48,6 +44,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.cbNamHoc = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.dgvNhapDiem = new System.Windows.Forms.DataGridView();
+            this.MAHS = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HOTEN = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Thoat = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNhapDiem)).BeginInit();
@@ -57,7 +56,6 @@
             // 
             this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.dgvNhapDiem);
             this.groupBox1.Controls.Add(this.btnXem);
             this.groupBox1.Controls.Add(this.btnQuayLai);
             this.groupBox1.Controls.Add(this.label5);
@@ -72,6 +70,7 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.cbNamHoc);
             this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.dgvNhapDiem);
             this.groupBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
@@ -92,41 +91,6 @@
             this.label6.Size = new System.Drawing.Size(198, 21);
             this.label6.TabIndex = 7;
             this.label6.Text = "Danh sách bảng điểm";
-            // 
-            // dgvNhapDiem
-            // 
-            this.dgvNhapDiem.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dgvNhapDiem.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvNhapDiem.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3});
-            this.dgvNhapDiem.Location = new System.Drawing.Point(261, 48);
-            this.dgvNhapDiem.Name = "dgvNhapDiem";
-            this.dgvNhapDiem.Size = new System.Drawing.Size(520, 513);
-            this.dgvNhapDiem.TabIndex = 6;
-            this.dgvNhapDiem.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvNhapDiem_CellContentClick);
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Mã Học Sinh";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            this.Column1.Width = 150;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Họ Tên";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            this.Column2.Width = 200;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Điểm số";
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 130;
             // 
             // btnXem
             // 
@@ -157,17 +121,17 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(25, 312);
+            this.label5.Location = new System.Drawing.Point(19, 309);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(65, 16);
+            this.label5.Size = new System.Drawing.Size(125, 16);
             this.label5.TabIndex = 21;
-            this.label5.Text = "Cột điểm";
+            this.label5.Text = "Hình thức kiểm tra";
             // 
             // cbCotDiem
             // 
             this.cbCotDiem.FormattingEnabled = true;
             this.cbCotDiem.Items.AddRange(new object[] {
-            "Miệng",
+            "Điểm Miệng",
             "Điểm 15 phút lần 1",
             "Điểm 15 phút lần 2",
             "Điểm 15 phút lần 3",
@@ -175,7 +139,7 @@
             "1 Tiết lần 2",
             "1 Tiết lần 3",
             "Điểm thi"});
-            this.cbCotDiem.Location = new System.Drawing.Point(28, 343);
+            this.cbCotDiem.Location = new System.Drawing.Point(22, 340);
             this.cbCotDiem.Name = "cbCotDiem";
             this.cbCotDiem.Size = new System.Drawing.Size(166, 27);
             this.cbCotDiem.TabIndex = 20;
@@ -192,6 +156,7 @@
             this.btnLuu.TabIndex = 19;
             this.btnLuu.Text = "Lưu";
             this.btnLuu.UseVisualStyleBackColor = false;
+            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
             // hocky2
             // 
@@ -224,7 +189,7 @@
             // cbLop
             // 
             this.cbLop.FormattingEnabled = true;
-            this.cbLop.Location = new System.Drawing.Point(25, 204);
+            this.cbLop.Location = new System.Drawing.Point(22, 194);
             this.cbLop.Name = "cbLop";
             this.cbLop.Size = new System.Drawing.Size(169, 27);
             this.cbLop.TabIndex = 8;
@@ -233,7 +198,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(22, 247);
+            this.label4.Location = new System.Drawing.Point(22, 236);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(35, 16);
             this.label4.TabIndex = 7;
@@ -242,7 +207,7 @@
             // cbMon
             // 
             this.cbMon.FormattingEnabled = true;
-            this.cbMon.Location = new System.Drawing.Point(25, 269);
+            this.cbMon.Location = new System.Drawing.Point(22, 267);
             this.cbMon.Name = "cbMon";
             this.cbMon.Size = new System.Drawing.Size(169, 27);
             this.cbMon.TabIndex = 6;
@@ -251,7 +216,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(22, 179);
+            this.label3.Location = new System.Drawing.Point(22, 163);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(33, 16);
             this.label3.TabIndex = 5;
@@ -283,6 +248,36 @@
             this.label1.Size = new System.Drawing.Size(64, 16);
             this.label1.TabIndex = 1;
             this.label1.Text = "Năm học";
+            // 
+            // dgvNhapDiem
+            // 
+            this.dgvNhapDiem.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvNhapDiem.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvNhapDiem.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.MAHS,
+            this.HOTEN});
+            this.dgvNhapDiem.Location = new System.Drawing.Point(261, 48);
+            this.dgvNhapDiem.Name = "dgvNhapDiem";
+            this.dgvNhapDiem.Size = new System.Drawing.Size(520, 513);
+            this.dgvNhapDiem.TabIndex = 6;
+            this.dgvNhapDiem.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.dgvNhapDiem_PreviewKeyDown);
+            // 
+            // MAHS
+            // 
+            this.MAHS.DataPropertyName = "MAHS";
+            this.MAHS.HeaderText = "Mã Học Sinh";
+            this.MAHS.Name = "MAHS";
+            this.MAHS.ReadOnly = true;
+            this.MAHS.Width = 150;
+            // 
+            // HOTEN
+            // 
+            this.HOTEN.DataPropertyName = "HOTEN";
+            this.HOTEN.HeaderText = "Họ Tên";
+            this.HOTEN.Name = "HOTEN";
+            this.HOTEN.ReadOnly = true;
+            this.HOTEN.Width = 200;
             // 
             // Thoat
             // 
@@ -333,8 +328,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DataGridView dgvNhapDiem;
         private System.Windows.Forms.Button btnXem;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MAHS;
+        private System.Windows.Forms.DataGridViewTextBoxColumn HOTEN;
     }
 }

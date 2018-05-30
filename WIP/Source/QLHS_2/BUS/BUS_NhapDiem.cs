@@ -11,16 +11,17 @@ namespace BUS
    public class BUS_NhapDiem
     {
        DAL_NhapDiem da = new DAL_NhapDiem();
-        public DataTable getBangDiem(int manh,  int MaHocKy, int MaLop, int Mon, string CotDiem)
+        public DataTable getBangDiem(DTO_BangDiem A)
         {
-            return da.getBangDiem(manh, MaHocKy, MaLop, Mon, CotDiem);
+            return da.getBangDiem(A);
         }
 
-       
-        public void CapNhatDiem()
-        {
-            CapNhatDiem();
+
+        public void CapNhatDiem(DTO_BangDiem A)
+        {   
+
+            da.CapNhatDiem(A);
         }
-    
+
     }
 }
