@@ -349,7 +349,10 @@ CREATE TABLE [dbo].[QUYDINH](
 	[DIEMDAT] [int] NULL,
 	[DIEMMAX] [int] NULL,
 	[DIEMMIN] [int] NULL,
-	[SLMON] [int] NULL
+	[SLMON] [int] NULL,
+	[LOP10] [int] NULL,
+	[LOP11] [int] NULL,
+	[LOP12] [int] NULL
 ) ON [PRIMARY]
 
 GO

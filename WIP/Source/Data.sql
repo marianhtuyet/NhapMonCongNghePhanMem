@@ -29,3 +29,56 @@ insert into HOCSINH(HOTEN,DIACHI,NGAYSINH,GIOITINH,TONGIAO,DANTOC,HOTENCHA,NGHEN
 insert into HOCSINH(HOTEN,DIACHI,NGAYSINH,GIOITINH,TONGIAO,DANTOC,HOTENCHA,NGHENGHIEPCHA,HOTENME,NGHENGHIEPME) VALUES (N'Hoàng Thái Thanh',N'Thành phố Hồ Chí Minh','22/1/2002',N'Nam',N'Không',N'Kinh',N'Hoàng Thái Tuất',N'Kinh doanh',N'Trần Thị Anh',N'Nội trợ')
 insert into HOCSINH(HOTEN,DIACHI,NGAYSINH,GIOITINH,TONGIAO,DANTOC,HOTENCHA,NGHENGHIEPCHA,HOTENME,NGHENGHIEPME) VALUES (N'Nguyễn Trần Gia Bảo',N'Thành phố Hồ Chí Minh','12/02/2001',N'Nam',N'Không',N'Kinh',N'Nguyễn Văn Tài',N'Kinh doanh',N'Trần Thị Kim Liên',N'Kinh doanh')
 insert into HOCSINH(HOTEN,DIACHI,NGAYSINH,GIOITINH,TONGIAO,DANTOC,HOTENCHA,NGHENGHIEPCHA,HOTENME,NGHENGHIEPME) VALUES (N'KaLe Nhật Nguyên',N'Biên Hòa, Đồng Nai','01/01/2003',N'Nam',N'Công Giáo',N'Kinh',N'Kale Nhật Hoàng',N'Kinh doanh',N'Lê Phương Hiền',N'Nội trợ')
+-- Table QUYDINH
+insert into QUYDINH values(11, 15, 40, 5, 10, 0, 9, 4, 3, 2)
+-- Table LOPHOC
+insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (101,'10a1',1)
+insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (102,'10a2',1)
+insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (103,'10a3',1)
+insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (104,'10a4',1)
+insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (111,'11a1',2)
+insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (112,'11a2',2)
+insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (113,'11a3',2)
+insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (121,'12a1',3)
+insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (122,'12a2',3)
+--Table MONHOC
+insert into MONHOC(MAMH,TENMH) values (1,N'Toán')
+insert into MONHOC(MAMH,TENMH) values (2,N'Ngữ Văn')
+insert into MONHOC(MAMH,TENMH) values (3,N'Vật lý')
+insert into MONHOC(MAMH,TENMH) values (4,N'Hóa Học')
+insert into MONHOC(MAMH,TENMH) values (5,N'Anh Văn')
+insert into MONHOC(MAMH,TENMH) values (6,N'Sinh Học')
+insert into MONHOC(MAMH,TENMH) values (7,N'Lịch Sử')
+insert into MONHOC(MAMH,TENMH) values (8,N'Địa Lý')
+--Table NAMHOC
+insert into NAMHOC values (2017,'2017-2018')
+insert into NAMHOC values (2018,'2018-2019')
+insert into NAMHOC values (2019,'2019-2020')
+insert into NAMHOC values (2020,'2020-2021')
+insert into NAMHOC values (2021,'2021-2022')
+insert into NAMHOC values (2022,'2022-2023')
+insert into NAMHOC values (2023,'2023-2024')
+--Talbe KHOILOP
+insert into KHOILOP(TENKHOI) values (N'Khối 10')
+insert into KHOILOP(TENKHOI) values (N'Khối 11')
+insert into KHOILOP(TENKHOI) values (N'Khối 12')
+--Table NGUOIDUNG	
+insert into NGUOIDUNG(TENDN,PASS) values ('admin','admin')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
