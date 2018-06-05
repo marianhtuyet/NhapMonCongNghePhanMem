@@ -264,7 +264,7 @@ GO
 
 CREATE TABLE [dbo].[MONHOC](
 	[MAMH] [int] NOT NULL,
-	[TENMH] [char](10) NULL,
+	[TENMH] [nvarchar](10) NULL,
 	[HESO] [int] NULL,
  CONSTRAINT [PK_MONHOC] PRIMARY KEY CLUSTERED 
 (
