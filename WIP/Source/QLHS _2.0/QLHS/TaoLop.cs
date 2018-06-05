@@ -148,6 +148,7 @@ namespace GUI
             }
             DSLopCoSan.DataSource = busLopCoSan.getLopHocCoSan(MaNH, MaLop);
             HSChuaCoLop.DataSource = busTaoLop.getDSLop();
+            listmaHS = new List<int>();
         }
 
        

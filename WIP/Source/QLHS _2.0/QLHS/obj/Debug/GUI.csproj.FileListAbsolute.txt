@@ -41,3 +41,6 @@ C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\QLHS - Copy\QLHS\bin\Debug
 C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\QLHS - 1\QLHS\bin\Debug\QLHS.exe.config
 C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\QLHS - 1\QLHS\obj\Debug\QLHS.exe
 C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\QLHS - 1\QLHS\obj\Debug\QLHS.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _2.0\QLHS\bin\Debug\QLHS.exe.config
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _2.0\QLHS\obj\Debug\QLHS.exe
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _2.0\QLHS\obj\Debug\QLHS.pdb
