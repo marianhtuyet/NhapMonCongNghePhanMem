@@ -63,3 +63,25 @@ C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\QLHS _2.0\QLHS\obj\Debug\G
 C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\QLHS _2.0\QLHS\obj\Debug\QLHS.Properties.Resources.resources
 C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\QLHS _2.0\QLHS\obj\Debug\GUI.TaoLop.resources
 C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\QLHS _2.0\QLHS\obj\Debug\GUI.csproj.GenerateResource.Cache
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\QLHS\bin\Debug\QLHS.exe.config
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\QLHS\obj\Debug\QLHS.exe
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\QLHS\obj\Debug\QLHS.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\QLHS\bin\Debug\QLHS.exe
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\QLHS\bin\Debug\QLHS.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\QLHS\bin\Debug\BUS.dll
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\QLHS\bin\Debug\DTO.dll
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\QLHS\bin\Debug\DAL.dll
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\QLHS\bin\Debug\BUS.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\QLHS\bin\Debug\DTO.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\QLHS\bin\Debug\DAL.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\QLHS\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\QLHS\obj\Debug\QLHS.frmDangNhap.resources
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\QLHS\obj\Debug\QLHS.frmGiaoDienChinh.resources
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\QLHS\obj\Debug\GUI.frmNhapDiem.resources
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\QLHS\obj\Debug\GUI.frmThayDoiQuyDinh.resources
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\QLHS\obj\Debug\QLHS.frmTiepNhanHocSinh.resources
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\QLHS\obj\Debug\QLHS.frmTimKiemHocSinh.resources
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\QLHS\obj\Debug\GUI.frmChuyenLop.resources
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\QLHS\obj\Debug\QLHS.Properties.Resources.resources
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\QLHS\obj\Debug\GUI.TaoLop.resources
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\QLHS\obj\Debug\GUI.csproj.GenerateResource.Cache

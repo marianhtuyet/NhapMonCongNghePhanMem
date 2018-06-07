@@ -19,3 +19,10 @@ C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\QLHS _2.0\DAL\bin\Debug\DT
 C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\QLHS _2.0\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\QLHS _2.0\DAL\obj\Debug\DAL.dll
 C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\QLHS _2.0\DAL\obj\Debug\DAL.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\DAL\bin\Debug\DAL.dll
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\DAL\bin\Debug\DAL.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\DAL\bin\Debug\DTO.dll
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\DAL\bin\Debug\DTO.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\DAL\obj\Debug\DAL.dll
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\DAL\obj\Debug\DAL.pdb
