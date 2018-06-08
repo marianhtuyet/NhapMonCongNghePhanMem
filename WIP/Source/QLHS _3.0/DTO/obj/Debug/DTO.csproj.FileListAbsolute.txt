@@ -13,3 +13,8 @@ C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\QLHS _2.0\DTO\bin\Debug\DT
 C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\QLHS _2.0\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
 C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\QLHS _2.0\DTO\obj\Debug\DTO.dll
 C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\QLHS _2.0\DTO\obj\Debug\DTO.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\DTO\bin\Debug\DTO.dll
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\DTO\bin\Debug\DTO.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\DTO\obj\Debug\DTO.dll
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0\DTO\obj\Debug\DTO.pdb
