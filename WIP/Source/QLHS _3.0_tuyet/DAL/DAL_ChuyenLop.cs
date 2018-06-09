@@ -71,7 +71,6 @@ namespace DAL
                 try
                 {
                     string insertdata = "update DIEMTBMON set MALOP = " + MaLop + " where MAHS = " + MaHS+ " and MANH = " + MaNH;
-                    MessageBox.Show(insertdata);
                     _conn.Open();
                     SqlCommand insertDTBMon = new SqlCommand(insertdata, _conn);
                     insertDTBMon.ExecuteNonQuery();
@@ -87,7 +86,6 @@ namespace DAL
                 try
                 {
                     string insertdata = "insert DIEMTBMON values (" + MaNH + ", " + MaLop + ", " + MaMH + " , " + MaHS+ ", NULL, NULL, NULL)";
-                    MessageBox.Show(insertdata);
                     _conn.Open();
                     SqlCommand cmd = new SqlCommand(insertdata, _conn);
                     cmd.ExecuteNonQuery(); ;

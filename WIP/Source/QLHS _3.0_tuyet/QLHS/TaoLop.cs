@@ -141,7 +141,6 @@ namespace GUI
                 lMaMH.Add(lMonHoc[i].MaMH);
                 
             }
-            MessageBox.Show(lMonHoc.Count.ToString());
             foreach (int item in lMaMH)
             {
                 foreach (int i in listmaHS)

@@ -23,3 +23,8 @@ D:\AnhTuyet\BaiHoc\hk2 2017-1018\CNPM\Source\QLHS _3.0\DTO\bin\Debug\DTO.pdb
 D:\AnhTuyet\BaiHoc\hk2 2017-1018\CNPM\Source\QLHS _3.0\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
 D:\AnhTuyet\BaiHoc\hk2 2017-1018\CNPM\Source\QLHS _3.0\DTO\obj\Debug\DTO.dll
 D:\AnhTuyet\BaiHoc\hk2 2017-1018\CNPM\Source\QLHS _3.0\DTO\obj\Debug\DTO.pdb
+C:\Users\Tung\Desktop\Secret Folder\github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0_tuyet\DTO\bin\Debug\DTO.dll
+C:\Users\Tung\Desktop\Secret Folder\github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0_tuyet\DTO\bin\Debug\DTO.pdb
+C:\Users\Tung\Desktop\Secret Folder\github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0_tuyet\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\Tung\Desktop\Secret Folder\github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0_tuyet\DTO\obj\Debug\DTO.dll
+C:\Users\Tung\Desktop\Secret Folder\github\NhapMonCongNghePhanMem\WIP\Source\QLHS _3.0_tuyet\DTO\obj\Debug\DTO.pdb
