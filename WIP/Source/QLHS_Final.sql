@@ -107,7 +107,6 @@ CREATE TABLE QUYDINH
 	DIEMDAT INT NULL,
 	DIEMMAX INT NULL,
 	DIEMMIN INT NULL,
-	SLMON INT NULL,
 	LOP10 INT NULL,
 	LOP11 INT NULL,
 	LOP12 INT NULL
@@ -188,6 +187,7 @@ insert into KHOILOP(TENKHOI) values (N'Khối 12')
 
 -- Insert DataTable NGUOIDUNG	
 insert into NGUOIDUNG(TENDN,PASS) values ('admin','admin')
-
+insert DataTable QUYDINH
+insert into QUYDINH values(20, 15, 40, 5, 10, 0, 4, 3, 2)
 
 

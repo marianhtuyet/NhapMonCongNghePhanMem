@@ -40,3 +40,10 @@ D:\AnhTuyet\BaiHoc\hk2 2017-1018\CNPM\Source\QLHS _SemiFinal\DAL\bin\Debug\DTO.p
 D:\AnhTuyet\BaiHoc\hk2 2017-1018\CNPM\Source\QLHS _SemiFinal\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 D:\AnhTuyet\BaiHoc\hk2 2017-1018\CNPM\Source\QLHS _SemiFinal\DAL\obj\Debug\DAL.dll
 D:\AnhTuyet\BaiHoc\hk2 2017-1018\CNPM\Source\QLHS _SemiFinal\DAL\obj\Debug\DAL.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _SemiFinal_tuyet\DAL\bin\Debug\DAL.dll
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _SemiFinal_tuyet\DAL\bin\Debug\DAL.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _SemiFinal_tuyet\DAL\bin\Debug\DTO.dll
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _SemiFinal_tuyet\DAL\bin\Debug\DTO.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _SemiFinal_tuyet\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _SemiFinal_tuyet\DAL\obj\Debug\DAL.dll
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _SemiFinal_tuyet\DAL\obj\Debug\DAL.pdb

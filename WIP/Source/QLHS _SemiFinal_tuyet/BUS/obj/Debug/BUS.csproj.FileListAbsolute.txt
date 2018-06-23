@@ -52,3 +52,12 @@ D:\AnhTuyet\BaiHoc\hk2 2017-1018\CNPM\Source\QLHS _SemiFinal\BUS\bin\Debug\DTO.p
 D:\AnhTuyet\BaiHoc\hk2 2017-1018\CNPM\Source\QLHS _SemiFinal\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
 D:\AnhTuyet\BaiHoc\hk2 2017-1018\CNPM\Source\QLHS _SemiFinal\BUS\obj\Debug\BUS.dll
 D:\AnhTuyet\BaiHoc\hk2 2017-1018\CNPM\Source\QLHS _SemiFinal\BUS\obj\Debug\BUS.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _SemiFinal_tuyet\BUS\bin\Debug\BUS.dll
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _SemiFinal_tuyet\BUS\bin\Debug\BUS.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _SemiFinal_tuyet\BUS\bin\Debug\DAL.dll
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _SemiFinal_tuyet\BUS\bin\Debug\DTO.dll
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _SemiFinal_tuyet\BUS\bin\Debug\DAL.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _SemiFinal_tuyet\BUS\bin\Debug\DTO.pdb
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _SemiFinal_tuyet\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _SemiFinal_tuyet\BUS\obj\Debug\BUS.dll
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _SemiFinal_tuyet\BUS\obj\Debug\BUS.pdb
