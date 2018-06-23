@@ -148,7 +148,7 @@ insert into HOCSINH(HOTEN,DIACHI,NGAYSINH,GIOITINH,TONGIAO,DANTOC,HOTENCHA,NGHEN
 insert into HOCSINH(HOTEN,DIACHI,NGAYSINH,GIOITINH,TONGIAO,DANTOC,HOTENCHA,NGHENGHIEPCHA,HOTENME,NGHENGHIEPME) VALUES (N'KaLe Nhật Nguyên',N'Biên Hòa, Đồng Nai','01/01/2003',N'Nam',N'Công Giáo',N'Kinh',N'Kale Nhật Hoàng',N'Kinh doanh',N'Lê Phương Hiền',N'Nội trợ')
 
 -- Insert DataTable QUYDINH
-insert into QUYDINH values(11, 15, 40, 5, 10, 0, 9, 4, 3, 2)
+insert into QUYDINH values(20, 15, 40, 5, 10, 0, 4, 3, 2)
 
 -- Insert DataTable LOPHOC
 insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (101,'10a1',10)
@@ -188,6 +188,6 @@ insert into KHOILOP(TENKHOI) values (N'Khối 12')
 -- Insert DataTable NGUOIDUNG	
 insert into NGUOIDUNG(TENDN,PASS) values ('admin','admin')
 insert DataTable QUYDINH
-insert into QUYDINH values(20, 15, 40, 5, 10, 0, 4, 3, 2)
+
 
 
