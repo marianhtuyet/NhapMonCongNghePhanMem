@@ -87,3 +87,6 @@ C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\QLHS _3.0\QLHS\obj\Debug\Q
 C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\QLHS _3.0\QLHS\obj\Debug\GUI.TaoLop.resources
 C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\QLHS _3.0\QLHS\obj\Debug\GUI.csproj.GenerateResource.Cache
 C:\Users\Tung\Desktop\Secret Folder\Lập trình\CNPM\QLHS _3.0\QLHS\obj\Debug\QLHS.frmDTBChung.resources
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _4.0\QLHS\bin\Debug\QLHS.exe.config
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _4.0\QLHS\obj\Debug\QLHS.exe
+D:\AnhTuyet\BaiHoc\Github\NhapMonCongNghePhanMem\WIP\Source\QLHS _4.0\QLHS\obj\Debug\QLHS.pdb
