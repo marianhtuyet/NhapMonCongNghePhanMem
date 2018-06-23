@@ -111,6 +111,11 @@ CREATE TABLE QUYDINH
 	LOP11 INT NULL,
 	LOP12 INT NULL
 )	
+CREATE TABLE KHOILOP
+(
+	MAKHOI int IDENTITY(1,1) PRIMARY KEY NOT NULL,
+	TENKHOI nchar(10) NULL,
+)
 
 -- Định dạng ngày giờ Ngày Tháng Năm
 set dateformat dmy
@@ -187,7 +192,7 @@ insert into KHOILOP(TENKHOI) values (N'Khối 12')
 
 -- Insert DataTable NGUOIDUNG	
 insert into NGUOIDUNG(TENDN,PASS) values ('admin','admin')
-insert DataTable QUYDINH
+
 
 
 
