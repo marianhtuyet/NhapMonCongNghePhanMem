@@ -192,6 +192,9 @@ insert into KHOILOP(TENKHOI) values (N'Khối 12')
 
 -- Insert DataTable NGUOIDUNG	
 insert into NGUOIDUNG(TENDN,PASS) values ('admin','admin')
+insert into NGUOIDUNG(TENDN,PASS) values ('admin2','admin2')
+insert into NGUOIDUNG(TENDN,PASS) values ('admin3','admin3')
+
 
 
 
