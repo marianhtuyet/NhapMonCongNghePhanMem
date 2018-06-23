@@ -151,15 +151,15 @@ insert into HOCSINH(HOTEN,DIACHI,NGAYSINH,GIOITINH,TONGIAO,DANTOC,HOTENCHA,NGHEN
 insert into QUYDINH values(11, 15, 40, 5, 10, 0, 9, 4, 3, 2)
 
 -- Insert DataTable LOPHOC
-insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (101,'10a1',1)
-insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (102,'10a2',1)
-insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (103,'10a3',1)
-insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (104,'10a4',1)
-insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (111,'11a1',2)
-insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (112,'11a2',2)
-insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (113,'11a3',2)
-insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (121,'12a1',3)
-insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (122,'12a2',3)
+insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (101,'10a1',10)
+insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (102,'10a2',10)
+insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (103,'10a3',10)
+insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (104,'10a4',10)
+insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (111,'11a1',11)
+insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (112,'11a2',11)
+insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (113,'11a3',11)
+insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (121,'12a1',12)
+insert into LOPHOC(MALOP,TENLOP,MAKHOI) values (122,'12a2',12)
 
 -- Insert DataTable MONHOC
 insert into MONHOC(MAMH,TENMH) values (1,N'Toán')
