@@ -19,7 +19,7 @@ namespace DAL
         public DataTable getTongKetMon(DTO_TongKet tk)
         {
             dt.Clear();
-            string sqlSelectTKM = string.Format("select LOPHOC.TENLOP,BAOCAO.SISO,BAOCAO.SOLUONGDAT,TYLE = CAST(BAOCAO.TYLE AS VARCHAR(3))+'%' FROM BAOCAO, LOPHOC where  BAOCAO.MAMH = {0} AND BAOCAO.MALOP = LOPHOC.MALOP and BAOCAO.MANH = {1}",tk.MaMH,tk.MaNH, _conn);
+            string sqlSelectTKM = string.Format("select LOPHOC.TENLOP,BAOCAO.SISO,BAOCAO.SOLUONGDAT,TYLE = CAST(round(BAOCAO.TYLE,1) AS VARCHAR(7))+'%' FROM BAOCAO, LOPHOC where  BAOCAO.MAMH = {0} AND BAOCAO.MALOP = LOPHOC.MALOP and BAOCAO.MANH = {1}", tk.MaMH,tk.MaNH, _conn);
             try
             {
                 da = new SqlDataAdapter(sqlSelectTKM, _conn);
@@ -38,7 +38,7 @@ namespace DAL
         public DataTable getTongKetChung(DTO_TongKet tk)
         {
             dt.Clear();
-            string sqlSelectTKc = string.Format("select LOPHOC.TENLOP,SISO=BAOCAOCHUNG.SISO,SOLUONGDAT=BAOCAOCHUNG.SOLUONGDAT,TYLE = CAST((BAOCAOCHUNG.TYLE) AS VARCHAR(3))+'%' FROM BAOCAOCHUNG, LOPHOC where  BAOCAOCHUNG.MALOP = LOPHOC.MALOP and BAOCAOCHUNG.MANH = {0}", tk.MaNH, _conn);
+            string sqlSelectTKc = string.Format("select LOPHOC.TENLOP,SISO=BAOCAOCHUNG.SISO,SOLUONGDAT=BAOCAOCHUNG.SOLUONGDAT,TYLE = CAST(ROUND(BAOCAOCHUNG.TYLE,1) AS VARCHAR(10))+'%' FROM BAOCAOCHUNG, LOPHOC where  BAOCAOCHUNG.MALOP = LOPHOC.MALOP and BAOCAOCHUNG.MANH = {0}", tk.MaNH, _conn);
             try
             {
                 da = new SqlDataAdapter(sqlSelectTKc, _conn);
@@ -63,30 +63,32 @@ namespace DAL
             SqlCommand cmdUpdateSoLuongDat = new SqlCommand(sqlUpdateSoLuongDat, _conn);
             SqlCommand cmdUpdateTyLe = new SqlCommand(sqlUpdateTyLe, _conn);
             _conn.Open();
-            try
-            {
+            //try
+            //{
                 cmdUpdateSiSo.ExecuteNonQuery();
-            }
-            catch
-            {
-                MessageBox.Show("Không thể update dữ liệu sĩ số!!");
-            }
-            try
-            {
+            //}
+            //catch
+            //{
+            //    MessageBox.Show("Không thể update dữ liệu sĩ số!!");
+            //}
+            
+            //try
+            //{
                 cmdUpdateSoLuongDat.ExecuteNonQuery();
-            }
-            catch
-            {
-                MessageBox.Show("Không thể update dữ liệu số lượng đạt!!");
-            }
-            try
-            {
+            //}
+            //catch
+            //{
+            //    MessageBox.Show("Không thể update dữ liệu số lượng đạt!!");
+            //}
+             
+            //try
+            //{
                 cmdUpdateTyLe.ExecuteNonQuery();
-            }
-            catch
-            {
-                MessageBox.Show("Không thể update dữ liệu tỷ lệ!!");
-            }
+            //}
+            //catch
+            //{
+            //    MessageBox.Show("Không thể update dữ liệu tỷ lệ!!");
+            //}
             _conn.Close();
         }
         public void updateTongKetChung()
@@ -98,30 +100,30 @@ namespace DAL
             SqlCommand cmdUpdateSoLuongDat = new SqlCommand(sqlUpdateSoLuongDat, _conn);
             SqlCommand cmdUpdateTyLe = new SqlCommand(sqlUpdateTyLe, _conn);
             _conn.Open();
-            try
-            {
+            //try
+            //{
                 cmdUpdateSiSo.ExecuteNonQuery();
-            }
-            catch
-            {
-                MessageBox.Show("Không thể update dữ liệu sĩ số!!");
-            }
-            try
-            {
+            //}
+            //catch
+            //{
+            //    MessageBox.Show("Không thể update dữ liệu sĩ số!!");
+            //}
+            //try
+            //{
                 cmdUpdateSoLuongDat.ExecuteNonQuery();
-            }
-            catch
-            {
-                MessageBox.Show("Không thể update dữ liệu số lượng đạt!!");
-            }
-            try
-            {
+            //}
+            //catch
+            //{
+            //    MessageBox.Show("Không thể update dữ liệu số lượng đạt!!");
+            //}
+            //try
+            //{
                 cmdUpdateTyLe.ExecuteNonQuery();
-            }
-            catch
-            {
-                MessageBox.Show("Không thể update dữ liệu tỷ lệ!!");
-            }
+            //}
+            //catch
+            //{
+            //    MessageBox.Show("Không thể update dữ liệu tỷ lệ!!");
+            //}
             _conn.Close();
         }
     }

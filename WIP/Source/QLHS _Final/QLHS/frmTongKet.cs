@@ -51,11 +51,11 @@ namespace QLHS
         private void frmTongKet_Load(object sender, EventArgs e)
         {
             HienThiTrongCombobox();
-            busTK.updateTongKet();
         }
 
         private void btnXem_Click(object sender, EventArgs e)
         {
+            busTK.updateTongKet();
             dtoTK.MaMH = Convert.ToInt32(cboMonHoc.SelectedValue.ToString());
             dtoTK.MaNH = Convert.ToInt32(cboNamHoc.SelectedValue.ToString());
             dgvTongKet.DataSource = busTK.getTongKetMon(dtoTK);

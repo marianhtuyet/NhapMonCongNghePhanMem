@@ -51,11 +51,11 @@ namespace QLHS
         private void frmDTBChung_Load(object sender, EventArgs e)
         {
             HienThiTrongCombobox();
-            busDTB.updateDTB();
         }
 
         private void btnXem_Click(object sender, EventArgs e)
         {
+            busDTB.updateDTB();
             dtoDTB.MaLop = Convert.ToInt32(cbLopHoc.SelectedValue.ToString());
             dtoDTB.MaNH = Convert.ToInt32(cbNamHoc.SelectedValue.ToString());
             //dgvDTB.DataSource = null;
