@@ -78,9 +78,7 @@ CREATE TABLE LOPHOC
 (
 	MALOP INT PRIMARY KEY NOT NULL,
 	TENLOP VARCHAR(20) NULL,
-	MAKHOI INT NULL,
-	SISO INT NULL,
-	MANH INT NULL
+	MAKHOI INT NULL
 )
 CREATE TABLE NAMHOC
 (
@@ -115,6 +113,11 @@ CREATE TABLE KHOILOP
 (
 	MAKHOI int IDENTITY(1,1) PRIMARY KEY NOT NULL,
 	TENKHOI nchar(10) NULL,
+)
+CREATE TABLE HOCKY
+(
+	MAHK INT PRIMARY KEY NOT NULL,
+	TENHK NVARCHAR(20) NULL,
 )
 
 -- Định dạng ngày giờ Ngày Tháng Năm
@@ -195,6 +198,9 @@ insert into NGUOIDUNG(TENDN,PASS) values ('admin','admin')
 insert into NGUOIDUNG(TENDN,PASS) values ('admin2','admin2')
 insert into NGUOIDUNG(TENDN,PASS) values ('admin3','admin3')
 
+-- Insert Datatable HOCKY
+insert into HOCKY values (1,N'Học kỳ 1')
+insert into HOCKY values (2,N'Học kỳ 2')
 
 
 
