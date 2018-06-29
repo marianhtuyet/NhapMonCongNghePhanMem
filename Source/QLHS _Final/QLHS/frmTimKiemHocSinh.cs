@@ -156,12 +156,7 @@ namespace QLHS
             }
         }
 
-        private void btnQuayLai_Click(object sender, EventArgs e)
-        {
-            DialogResult dlr = MessageBox.Show("Bạn có thật sự muốn quay lại hay không?", "Thông Báo!!", MessageBoxButtons.YesNo);
-            if (dlr == DialogResult.Yes)
-                Application.Exit();
-        }
+
 
         private void btnXemHoSo_Click(object sender, EventArgs e)
         {

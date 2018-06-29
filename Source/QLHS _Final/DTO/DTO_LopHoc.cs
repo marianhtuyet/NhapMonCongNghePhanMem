@@ -12,8 +12,7 @@ namespace DTO
         public int _Malop;
         public string _TenLop;
         public int _MaKhoi;
-        public int _SiSo;
-        public int _MaNH;
+        
         public int MaLop
         {
             get { return _Malop; }
@@ -30,23 +29,12 @@ namespace DTO
             get { return _TenLop; }
             set { _TenLop = value; }
         }
-        public int SiSo
-        {
-            get { return _SiSo; }
-            set { _SiSo = value; }
-        }
-        public int MaNH
-        {
-            get { return _MaNH; }
-            set { _MaNH = value; }
-        }
+        
 
        public DTO_LopHoc (int malop, string tenlop, int siso, int manh)
         {
             this._Malop = malop;
             this._TenLop = tenlop;
-            this._SiSo = siso;
-            this._MaNH = manh;
         }
         public DTO_LopHoc(DataRow row)
         {
